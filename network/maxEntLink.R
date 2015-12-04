@@ -21,31 +21,6 @@ pmelink <- function(x, la, lower.tail=TRUE) {
 	}
 }
 
-# rmelink <- function(n, la, X0) {
-	# # xtemp <- sample(1:X0, round(1.5*n), rep=TRUE, prob=dexp(1:X0, la)*1.1)
-	# # ytemp <- runif(round(1.5*n), 0, dexp(xtemp)*1.1)
-	
-	# # x <- xtemp[dmelink(xtemp, la) >= ytemp]
-	
-	# # xy <- cbind(sample(1:X0, n*50, rep=TRUE), runif(n*50, 0, dmelink(1, la)*1.1))
-	# # x <- xy[dmelink(xy[, 1], la) >= xy[, 2], 1]
-	
-	# min.prob <- dmelink(X0, la)*10
-	# if(min.prob < 1e-08*dmelink(1, la)) min.prob <- 1e-04*dmelink(1, la)
-	# probs <- seq(dmelink(1, la)*1.5, min.prob, length=X0)
-	
-	# ## extra sampling needed to hit n total
-	# extraN <-round(100*la) + 20
-	
-	# xtemp <- sample(1:X0, n * extraN, rep=TRUE, prob=probs)
-	# ytemp <- runif(n * extraN, 0, probs[xtemp])
-	
-	# x <- xtemp[dmelink(xtemp, la) >= ytemp]
-	
-	# if(length(x) > n) return(x[1:n])
-	# else return(x)
-# }
-
 rmelink <- function(n, la, X0) {
 	sample(X0, n, rep=TRUE, prob=dmelink(1:X0, la))
 }
@@ -76,14 +51,19 @@ melink.logLik <- function(x) {
 # lines(pmelink(1:200, melink.mle(x)), col='red')
 # melink.logLik(x) - sum(log(dmelink(x, melink.mle(x)))) < 1e-12
 
+
+## function to make rank function (for plotting) of maxent link distrib
 melink.rankFun <- function(x) {
 	qmelink(seq(1-1/(length(x)+1), 1/(length(x)+1), by=-1/(length(x)+1)), melink.mle(x))
 }
 
+## mean squared error function for maxent link distrib
 melink.mse <- function(x) {
 	mean((sort(x, TRUE) - melink.rankFun(x))^2)
 }
 
+## monte carlo method for calculating distribution of mse values under model where
+## maxent truely generated the link distribution
 sim.melink.z <- function(x, X0, nsim=999) {
 	la <- melink.mle(x)
 	
