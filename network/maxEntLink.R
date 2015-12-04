@@ -31,7 +31,8 @@ qmelink <- function(x, la) {
 	fun@q(x)
 }
 
-## likelihood functions
+## likelihood functions (for simple cases maxent solution is equivilant to maximum likelihood solution
+## so we use MLE for computational ease)
 melink.mle <- function(x) {
 	log(1 + 1 / mean(x - 1))
 }
