@@ -1,0 +1,104 @@
+Log file path: S:/Dimensions arlequin files/TriozaHB.res/Arlequin_log.txt
+Core Routine Directory: //psf/Shared PC folder/WinArl35/
+Random number generator initialized with lidum=-224118
+Reading project profile section...
+done !
+Opening next project...
+S:/Dimensions arlequin files/TriozaHB.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (28/05/14 at 06:03:23)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Project file, Line #21 : Keyword "CompDistMatrix" is now obsolete. Please set this parameter directly throug the interface
+
+	Project file, Line #24 : HaplotypeDefinition keyword declared before the beginning of the 'Data' section...
+Reading Haplotype List ...
+done ! (15 ms)
+	Reading Samples section ...
+	Reading HI_col2_K_POUmi ... 
+	done ! (0 ms)
+
+	Reading HI_col2_K_PLLae ... 
+	done ! (0 ms)
+
+	Reading HI_col2_K_Waim ... 
+	done ! (0 ms)
+
+	Reading HI_col2_ML_SadRd ... 
+	done ! (0 ms)
+
+	Reading HI_col2_ML_Olaa ... 
+	done ! (0 ms)
+
+	Reading HI_col2_ML_Alili ... 
+	done ! (0 ms)
+
+	Reading HI_col2_ML_SCirRd ... 
+	done ! (0 ms)
+
+	Reading HI_col2_MK_Humu ... 
+	done ! (0 ms)
+
+	Reading HI_col2_MK_Laupa ... 
+	done ! (0 ms)
+
+	Reading HI_col2_MK_HamCoast ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (94 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 16 ms
+  done!
+  check selected settings...
+  done!
+		Beginning distance computations ...
+		done ! (0 ms)
+			Checking haplotype redundancy from a computed distance matrix:
+
+Population 'HI_col2_K_POUmi' : 
+done in 0 ms
+
+Population 'HI_col2_K_PLLae' : 
+done in 0 ms
+
+Population 'HI_col2_K_Waim' : 
+done in 0 ms
+
+Population 'HI_col2_ML_SadRd' : 
+done in 0 ms
+
+Population 'HI_col2_ML_Olaa' : 
+done in 0 ms
+
+Population 'HI_col2_ML_Alili' : 
+done in 0 ms
+
+Population 'HI_col2_ML_SCirRd' : 
+done in 0 ms
+
+Population 'HI_col2_MK_Humu' : 
+done in 0 ms
+
+Population 'HI_col2_MK_Laupa' : 
+done in 0 ms
+
+Population 'HI_col2_MK_HamCoast' : 
+done in 0 ms
+		Computing F statistics ...
+		done ! (30 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (28/05/14 at 06:03:24))
+Total computing time for this run : 0h 0m 0s 296 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of S:/Dimensions arlequin files/TriozaHB.arp

@@ -1,0 +1,126 @@
+Both the reviewers had difficulties with this manuscript, and I agree with their assessments. Part of the problem is that many of the statistical techniques, particularly with respect to network theory, are insufficiently explained for most readers. The structure of the sampling regime is not adequately described, and it would appear to be not strictly comparable between the islands. A major problem from my perspective is that the "hypotheses" refer to qualitative expectations of patterns and are not closely linked to underlying mechanisms. Thus, the "tests" of these hypotheses to not discriminate between well-stated alternative mechanisms, but relate more to generalized expectations based loosely on ecological and evolutionary theory.
+
+What to do with this manuscript? It clearly represents a lot of research effort and asks large questions. As the reviewers point out, however, it is not clear what the takeaway messages are, or whether any particular mechanism-based hypotheses have been tested. The manuscript needs be both more fully and carefully explained, and also streamlined; the authors should admit that they are primarily searching for pattern in population structure and community organization as a function of the age of the island biota, leaving the potential interpretations to the discussion. They need to explain the application of network theory somewhat more for a general audience, so that it is clear what the patterns mean in terms of the adaptations of the interacting species. Both of the reviews and my comments below make a number of suggestions and also make it clear where points of confusion lie.
+
+The issues raised in this paper are seemingly fundamental, namely how assemblage structure changes over evolutionary time in a biota that is assembled by rare, long-distance colonization, and then within- and between-island diversification over evolutionary periods. A lot of information is brought to bear from a wide variety of sources on one of the best-studied archipelagoes in the world. This should be an important contribution to the special issue. However, the manuscript as it stands is not acceptable and will require a lot of work to get it into shape. I hope that the authors are willing to undertake a major revision, including additional thinking about what they want to accomplish and what their data can actually reveal.
+
+Additional detailed comments of the handling editor on GEB-2014-0207, Rominger et al.
+
+
+Line 34, it is not clear that HI is beyond equilibrium dynamics; perhaps the steady state is very low; if this has a different meaning, then it should be made more explicit.
+Line 36, by ecological dynamics, do you mean long term environmental change caused by post-eruption succession? This should be explicit in the abstract.
+Line 52, presumably you are referring to species within clades of organisms at lower trophic levels; the trophic level itself doesn't develop divergence. The same comment applies to the next sentence.
+Lines 142-3, predictive power doesn't come from patterns
+Lines 169 ff., these predictions appear to be ad hoc, and not based on an underlying set of mechanisms. Why, for example, would primary succession necessarily override the consequences of non-random colonization from the mainland? What is it about the process of succession that might produce this effect, and how would one test for it in comparison with the outcome of alternatives? The basic problem is to use patterns to distinguish between underlying processes, which make unique predictions. Otherwise, this becomes an exercise in describing pattern rather than using pattern to distinguish between hypotheses (useful in its own right, of course).
+Lines 213 ff., it might be good to state explicitly that you are going to limit your comparisons to ohia forests at mid elevation, if that is in fact how you are going to approach the problem.
+Lines 245 ff., at what level is genetic variation relevant to the potential for divergence? Variation might be categorized within a locality, within a volcano, and between volcanoes on the same island; Fst values are mostly based on neutral variation, and perhaps are not so relevant to differentiation by selection. How will you use Fst values to estimate the potential for evolutionary differentiation and perhaps species diversification within islands?
+Lines 251 ff., it is not explicitly stated whether data exist on the distribution of herbivores across plant species within each site. How exactly were the bipartite networks constructed?
+Lines 269 ff., this description will be understood only by individuals who work on network analysis.
+Line 290 ff., this hypothesis is more an assumption, in the sense that it is not based on an underlying process regarding how evolution should lead to specialization over time. The specialist-generalist trade-off does not appear to evolve in a single direction, and different levels of specialization might be optimal depending on all sorts of considerations. Thus, 'testing the hypothesis' is really more like 'describing the pattern', since theory concerning the specialization-generalization spectrum is not taken up here. The same comment applies to the next paragraph, and really concerns how we understand the word 'hypothesis'.
+Line 308, it strikes me as odd that the variation among sites within volcanoes is greater than the variation between volcanoes-or am I interpreting these values incorrectly? It also seems from Figure 1 that the distribution of sampling sites on the three islands is quite different, which would seem to confound space and age.
+Line 324, some of the Hawaii species apparently have divergence times older than the island, i.e., 1.15 Ma > 0.5 Ma. How are we to interpret genetic variation within the species that are older than the island, as much of the genomic variation in the ancestral population is carried by a small number of colonists; or are the older age estimates the consequence of extinction or limiting sampling?
+Line 339, what exactly does the idea of maximum entropy represent, and what is its status as a null model. Since this is an important point, a little more explanation would be helpful to the uninitiated reader.
+Lines 345 ff., this is beginning to sound a little ad hoc, in terms of explanations for patterns.
+Line 368, can you make a concluding sentence that describes these dynamics, or at least the change in patterns from youngest to oldest?
+Lines 391 ff., this is an extremely interesting statement that would benefit from additional explanation.
+
+
+
+=====================================================================================
+
+Referee: 1
+
+Comments to the Author
+This paper uses the Hawaiian chrono-sequence and data on herbivores and predators in an attempt to sort out ecological and evolutionary processes in the assembly of communities. The question addressed is extremely important to community ecology research to advance our understanding of community assembly. Unfortunately, the results are difficult to interpret and what they mean is often not sufficiently explained. The genetic data and network analyses don't seem to hang together to make a clear coherent story. Instead they seem merely suggestive that older communities are structured by evolutionary processes, and it is not always clear that other explanations for the patterns observed can be ruled out. Overall, the paper has a "preliminary" feel to it and I believe it would be much improved if the intentions specified in the "Future research" section of the paper were carried out.
+
+Additional comments:
+
+There is quite a bit of literature around these days looking at ecological vs. evolutionary processes as drivers of community assembly. I suggest the authors look at the following to at least provide some deeper background to their thinking about this question.
+
+Lessard et al. 2012a Trends Ecol. Evol. 27(11):600--7
+Anacker BL, Harrison SP. 2012. Historical and ecological controls on phylogenetic diversity in Californian plant communities. Am. Nat. 180:257--69
+Carstensen DW, Lessard J-P, Holt BG, Borregard MK, Rahbek C. 2013. Introducing the biogeographic species pool. Ecography 36:1--9
+Wiens JJ, Pyron RA, Moen DS. 2011. Phylogenetic origins of local-scale diversity patterns and the causes of Amazonian megadiversity. Ecol. Lett. 14:643--53
+Belmaker J, Jetz W. 2012. Regional pools and environmental controls on vertebrate richness. Am. Nat. 179:512--23
+Ackerly, D.D. (2003). Community assembly, niche conservatism and adaptive evolution in changing environments. Int. J. Plant Sci., 164, S165-S184.
+Ackerly, D.D. (2004). Adaptation, niche conservatism, and convergence: comparative studies of leaf evolution in the California chaparral. Am. Nat., 163, 654-671.
+Chase JM, Myers JA. 2011. Disentangling the importance of ecological niches from stochastic processes across scales. Philos. Trans. R. Soc. Lond. B 366:2351--63
+
+Lines 169 and 178. More explanation is needed for the two hypotheses. For hypothesis 1, why should early assembly appear random? Are there other circumstances that would produce random assembly? For hypothesis 2 more explanation is needed for why evolutionary processes should result in higher levels of specialization. I would think that this might depend upon the type of selection regime. Can species sorting through time also result in specialization?
+
+I am not sufficiently knowledgeable to judge the molecular techniques or divergence dating analysis. However I note that mtDNA have been used in at least one case to look at divergence times. Coyne has found that if closely related species hybridize, then mtDNA cannot be used for this purpose because the mitochondria of one species can be completely captured by the other, thus obscuring divergence. The authors need to show that this is not a problem for their analysis.
+
+Generally, more explanation of network analysis and how it is used and what can be inferred from it is needed. Ditto for maximizing information entropy. The authors cite other papers that use these methods, but these methods should be explained clearly in the supplement to this paper so they can be easily evaluated.
+
+
+
+
+===============================================================================================================================
+
+
+Referee: 2
+
+Comments to the Author
+I read with great interest the manuscript by Rominger et al. The study aims to integrate the metacommunity and evolutionary ecology of species interactions to understand the assembling of ecological networks in Hawaii. The authors combine genetic information, network analyses and the maximum entropy theory to investigate how the assembling of different trophic levels and networks formed by species interactions change across time. They use this information to explore the relative role of ecological and evolutionary processes in shaping the observed patterns of interaction. I think the study is timing and may open new avenues of research. Having said that I am afraid that problems related to the main elements of the manuscript imperil the support of its main conclusions and the implications to a broad audience of ecologists.
+
+First, I think the manuscript do a poor job in connecting the results reported with the vast literature on how ecological and evolutionary processes shape the geographical variation of species interactions. For example, it is safe to argue that the current theoretical framework to understand the evolutionary outcomes of species interactions is the Theory of the Geographic Mosaic of Coevolution introduced by John N. Thompson and developed by multiple research groups across the world. Accordingly, observational work, lab experiments and a variety of mathematical and computational models have been used to explore the role of species interactions on diversification. It is primal to a paper that aims to contribute to the integration of metacommunity ecology and evolution to do not ignore the current status of the literature and to actually show in which ways the paper provides news insights and contribute to the available theory (ies).
+
+Second, some of the key predictions tested in this manuscript are related on how evolutionary processes should shape network structure. Unfortunately, these predictions are based on assumptions that do not hold. For example, we have now multiple theoretical evidence suggesting nestedness would be favored by natural selection (the work by Suweiss), differential extinction of species (the work by Fontaine and Thebault) and processes minimizing competition (the work by Bastolla). Therefore, to assume non-evolutionary processes would generate nestedness is not supported for our current theory. Moreover, to assume that evolution would necessarily favor specialization, and consequently, modularity is not supported by the evidence provided by both empirical and theoretical work on the evolution of species interactions in which a consumer can attack multiple prey species. Thus, the authors need to revisit carefully their assumptions and hypotheses to see if their results can still be presented as evidence of increased role of evolutionary processes in older islands or if alternative explanations are more likely to explain the observed pattern. In my opinion, and ignoring my concerns related to the data used (see below), I think that the results may provide evidence for particular outcomes of the evolutionary process in interactions among plants and herbivores.
+
+Third, the use of maximum entropy theory in the manuscript is hermetic. The authors mention in multiple parts of the text the notion of the statistical steady state of ecological systems and how this steady state provides a theoretical benchmark. Nevertheless, there is no mention on how these expected distributions look like. For example, what is the degree distribution predicted by the maximum entropy theory? Even if Harte (2011) provides the expected distributions this missing information does not allow a reader not deeply familiarized maximum entropy theory to understand the results reports and the usefulness of maximum entropy theory for this work.
+
+Fourth, because most of the available evidence for macroecological studies is correlative, it is usual to control for multiple confounding variables that may affect the reported patterns, leading to spurious correlations. Indeed, this careful exploration sets a control for inference on spatial and temporal trends in large-scale studies in ecology. I missed this kind controlled analysis in the current manuscript and without any kind of sensitivity analysis there is no enough evidence to support - in my opinion - the view that age is the best explanation for the observed patterns. I would like to know how the observed patterns are affect by island size or climate and habitat heterogeneity. To assume the islands are climatic similar may not be enough and there are ways of performing more rigorous analysis.
+
+Finally and more importantly, I have two major concerns with the network analysis performed by the authors. First, I am afraid that the trends described are much less evident than stated by the authors. There is no linear or monotonic change in nestedness and modularity with island age. Indeed, there are three islands showing higher nestedness and the old one showing lower nestedness. Accordingly, there are two islands showing more modular networks and two areas showing less modular networks. Therefore, there is no strong evidence supporting the predictions that island age would favor modular and less nested networks. The authors need to review their interpretation of the results to avoid overemphasize the mentioned trends and, actually, to double-check if there is any trend. Second, it is impossible to verify in the current draft the quality of the data used to build up the ecological networks. The only information available is: "We compiled plant-herbivore networks from published sources as described in the main text. Table 1 lists publications used in compiling these networks" (Supplement). Nevertheless the Table 1 of the Supplement is not available for reviewing ("As part of the final submission we will make available our compiled list of Hemipitera (a typo here) and their plant hosts from published sources"). As a consequence, it is impossible to me, as a reviewer, to make any evaluation on how adequate is the dataset used to build up the networks and how comparable the networks are. Thus, the central information for this manuscript is missing and I am afraid I cannot just believe that the data are adequate for the analysis performed. Along the same lines, it is not clear to me if the interactions were actually observed in each island or just assumed because there is information in the literature that a given insect feeds on a given co-occurring plant elsewhere. If the latter case is true, all the analysis is invalidated as a test of local, evolutionary assembly of ecological networks since it will be based on the assumption that there is no local specialization.
+
+
+
+
+====================================================================================================================================
+
+
+Specific comments 
+
+Ricklefs
+
+Lines 20-22, these superscript numbers do not appear in the author list.
+Line 59, how about "Our analyses suggest Š "
+Line 94, italicize Anolis
+Line 415, "suggest".
+Line 488, "assembly".
+Line 542, "REFERENCES".
+
+
+Rev 1
+
+Line 213. I would use the term "replicate climatic and biotic templates" rather than "replicate communities" here since the communities you are studying have different assembly and evolutionary histories.
+
+Line 228 and elsewhere. accession numbers not given
+Line 278. What aggregate properties were maintained in the null models and how might they affect you inferences. Some info is given in the supplement but more detail is needed.
+Line 282. probabilistic and degree distribution models need more explanation, again in the supplement. Degree has a jargony character. It is used several places in the paper and it is not always clear what it means.
+Line 322. I didn't see anywhere else in the paper a discussion of this phylogenetic data. Is it different from the genetic data?
+Lines 340-352. Patterns here are difficult to interpret (at least for me)
+
+
+Rev 2
+
+Abstract: the way network analysis is mentioned in the methods do not make clear why the authors performed this set of analysis.
+
+Line 70. To state that "genomic and computational techniques have re-opened scientists' eyes to the rich and dynamic interplay between these processes" (ecology and evolution) is unfair with the work of multiple research groups that have been using multiple approaches, from naturalistic observations to detailed lab experiments, to explore the interplay of ecology and evolution.
+
+Line 84. I missed some discussion on the limitations of using islands as study case.
+
+Line 106. This is a quite limited definition of ecology and I would doubt that ecologists that are not community ecologists would agree.
+
+Line 116. The use of network theory is much older than suggested in this sentence. See the work by Cohen, Margalef, Odum, Paine, May, and Pimm and the vast literature on food webs on the 70s and 80s.
+
+Line 133. This paragraph would be benefited for a synthesis of what we know about the integration of the mentioned processes.
+
+Line 282. Please provide the actual equations describing the probability of two species interact in each null model. This information should be available at least in the supplement.
+
+Line 283. It is odd to call a species an "island cosmopolitan".
+
+Line 458. Specialization is not evidence for coevolution. Coevolution can favor generalization and specialization can emergence in the absence of coevolution. 
+Lines 487 to 491. This part is speculative and based in a non-published paper that is not available to the audience yet. I suggest removing it.
+
+Line 488. A typo: assembly.

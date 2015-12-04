@@ -1,0 +1,92 @@
+Log file path: C:/Users/General Lab/Desktop/Kari/psyllids_col3Arlequin.res/Arlequin_log.txt
+Core Routine Directory: C:/Users/General Lab/Desktop/WinArl35/
+Random number generator initialized with lidum=-611619
+Reading project profile section...
+done !
+Opening next project...
+C:/Users/General Lab/Desktop/Kari/psyllids_col3Arlequin.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (26/04/14 at 15:34:51)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Project file, Line #21 : Keyword "CompDistMatrix" is now obsolete. Please set this parameter directly throug the interface
+
+Reading Haplotype List ...
+done ! (0 ms)
+	Reading Samples section ...
+	Reading COI_CytB ... 
+	done ! (0 ms)
+
+	Reading COIonly ... 
+	done ! (0 ms)
+
+	Reading Hawaii ... 
+	done ! (0 ms)
+
+	Reading HI_col3 ... 
+	done ! (0 ms)
+
+	Reading HI_col3_Kohala ... 
+	done ! (0 ms)
+
+	Reading HI_col3_MLoa ... 
+	done ! (0 ms)
+
+	Reading HI_col3_MKea ... 
+	done ! (0 ms)
+
+   1 #[WARNING # 1] from function "Samples::NewRead()" : invalid value for "NbSamples"
+Warning: 7 samples are actually listed in project file, while 
+8 are defined in the [[Profile]] section. Adjusting no. of samples...
+
+	done reading Samples section! (0 ms)
+done ! (78 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 16 ms
+  done!
+  check selected settings...
+  done!
+		Beginning distance computations ...
+		done ! (0 ms)
+			Checking haplotype redundancy from a computed distance matrix:
+
+Population 'COI_CytB' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+		Computing BMat ...
+		done ! (0 ms)
+	done ! (0 ms)
+	Computing mismatch distribution...
+	done ! (17861 ms)
+done in 17878 ms
+
+Population 'COIonly' : 
+	Computing standard diversity indices ...
+done in 0 ms
+
+Population 'Hawaii' : 
+	Computing standard diversity indices ...
+done in 0 ms
+
+Population 'HI_col3' : 
+	Computing standard diversity indices ...
+done in 0 ms
+
+Population 'HI_col3_Kohala' : 
+	Computing standard diversity indices ...
+done in 0 ms
+
+Population 'HI_col3_MLoa' : 
+	Computing standard diversity indices ...
+done in 0 ms
+
+Population 'HI_col3_MKea' : 
+	Computing standard diversity indices ...
+done in 0 ms

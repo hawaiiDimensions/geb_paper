@@ -1,0 +1,58 @@
+
+R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin10.8.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+[Previously saved workspace restored]
+
+> setwd('~/Dropbox/hawaiiDimensions/geb_paper/network')
+> source('run_netStats_conMat_prep.R')
+Loading required package: vegan
+Loading required package: permute
+Loading required package: lattice
+This is vegan 2.0-10
+Loading required package: sna
+sna: Tools for Social Network Analysis
+Version 2.3-2 created on 2014-01-13.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+ For citation information, type citation("sna").
+ Type help(package="sna") to get started.
+
+ This is bipartite 2.04
+ For latest changes see versionlog in  ?"bipartite-package".
+ For citation see: citation("bipartite").
+ Have a nice time plotting and analysing two-mode networks.
+
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:sna’:
+
+    %c%, betweenness, bonpow, closeness, degree, dyad.census, evcent,
+    hierarchy, is.connected, neighborhood, triad.census
+
+> 
+> ## run network metrics using Bascompte probabilistic
+> runNetStats(bimat, good.sites, site.info, nullm='qswap.null', nsim=nsim, file='networkMetrics_con_qswap.csv')
+using 24 cores 
+using 24 cores 
+using 24 cores 
+using 24 cores 
+> 
+> proc.time()
+    user   system  elapsed 
+2099.205   20.484  140.349 

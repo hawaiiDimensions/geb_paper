@@ -1,0 +1,4366 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Goodman" ,
+            first "Kari" ,
+            initials "K.R." } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy & Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "USA" ,
+            street "130 Mulford Hall" ,
+            email "krgoodman@berkeley.edu" ,
+            fax "510-643-3058" ,
+            phone "510-913-2109" ,
+            postal-code "94720" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Rominger" ,
+                  first "Andrew" ,
+                  initials "A.J." } } ,
+            {
+              name
+                name {
+                  last "Goodman" ,
+                  first "Kari" ,
+                  initials "K.R." } } ,
+            {
+              name
+                name {
+                  last "Lim" ,
+                  first "Jun" ,
+                  initials "J.Y." } } ,
+            {
+              name
+                name {
+                  last "Armstrong" ,
+                  first "Ellie" ,
+                  initials "E.E." } } ,
+            {
+              name
+                name {
+                  last "Becking" ,
+                  first "Lisa" ,
+                  initials "L.E." } } ,
+            {
+              name
+                name {
+                  last "Bennett" ,
+                  first "Gordon" ,
+                  initials "G.M." } } ,
+            {
+              name
+                name {
+                  last "Brewer" ,
+                  first "Michael" ,
+                  initials "M.S." } } ,
+            {
+              name
+                name {
+                  last "Cotoras" ,
+                  first "Darko" ,
+                  initials "D.D." } } ,
+            {
+              name
+                name {
+                  last "Ewing" ,
+                  first "Curtis" ,
+                  initials "C.P." } } ,
+            {
+              name
+                name {
+                  last "Harte" ,
+                  first "John" ,
+                  initials "J." } } ,
+            {
+              name
+                name {
+                  last "Martinez" ,
+                  first "Neo" ,
+                  initials "N.D." } } ,
+            {
+              name
+                name {
+                  last "O'Grady" ,
+                  first "Patrick" ,
+                  initials "P.M." } } ,
+            {
+              name
+                name {
+                  last "Percy" ,
+                  first "Diana" ,
+                  initials "D.M." } } ,
+            {
+              name
+                name {
+                  last "Price" ,
+                  first "Donald" ,
+                  initials "D.K." } } ,
+            {
+              name
+                name {
+                  last "Roderick" ,
+                  first "George" ,
+                  initials "G.K." } } ,
+            {
+              name
+                name {
+                  last "Shaw" ,
+                  first "Kerry" ,
+                  initials "K.L." } } ,
+            {
+              name
+                name {
+                  last "Valdovinos" ,
+                  first "Fernanda" ,
+                  initials "F.S." } } ,
+            {
+              name
+                name {
+                  last "Gruner" ,
+                  first "Daniel" ,
+                  initials "D.S." } } ,
+            {
+              name
+                name {
+                  last "Gillespie" ,
+                  first "Rosemary" ,
+                  initials "R.G." } } } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy & Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "USA" ,
+            street "130 Mulford Hall" ,
+            postal-code "94720" } } ,
+      date
+        std {
+          year 2015 ,
+          month 5 ,
+          day 30 } } ,
+    subtype new ,
+    tool "Sequin 13.70 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class pop-set ,
+        descr {
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Rominger" ,
+                            first "Andrew" ,
+                            initials "A.J." } } ,
+                      {
+                        name
+                          name {
+                            last "Goodman" ,
+                            first "Kari" ,
+                            initials "K.R." } } ,
+                      {
+                        name
+                          name {
+                            last "Lim" ,
+                            first "Jun" ,
+                            initials "J.Y." } } ,
+                      {
+                        name
+                          name {
+                            last "Armstrong" ,
+                            first "Ellie" ,
+                            initials "E.E." } } ,
+                      {
+                        name
+                          name {
+                            last "Becking" ,
+                            first "Lisa" ,
+                            initials "L.E." } } ,
+                      {
+                        name
+                          name {
+                            last "Bennett" ,
+                            first "Gordon" ,
+                            initials "G.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Brewer" ,
+                            first "Michael" ,
+                            initials "M.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Cotoras" ,
+                            first "Darko" ,
+                            initials "D.D." } } ,
+                      {
+                        name
+                          name {
+                            last "Ewing" ,
+                            first "Curtis" ,
+                            initials "C.P." } } ,
+                      {
+                        name
+                          name {
+                            last "Harte" ,
+                            first "John" ,
+                            initials "J." } } ,
+                      {
+                        name
+                          name {
+                            last "Martinez" ,
+                            first "Neo" ,
+                            initials "N.D." } } ,
+                      {
+                        name
+                          name {
+                            last "O'Grady" ,
+                            first "Patrick" ,
+                            initials "P.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Percy" ,
+                            first "Diana" ,
+                            initials "D.M." } } ,
+                      {
+                        name
+                          name {
+                            last "Price" ,
+                            first "Donald" ,
+                            initials "D.K." } } ,
+                      {
+                        name
+                          name {
+                            last "Roderick" ,
+                            first "George" ,
+                            initials "G.K." } } ,
+                      {
+                        name
+                          name {
+                            last "Shaw" ,
+                            first "Kerry" ,
+                            initials "K.L." } } ,
+                      {
+                        name
+                          name {
+                            last "Valdovinos" ,
+                            first "Fernanda" ,
+                            initials "F.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Gruner" ,
+                            first "Daniel" ,
+                            initials "D.S." } } ,
+                      {
+                        name
+                          name {
+                            last "Gillespie" ,
+                            first "Rosemary" ,
+                            initials "R.G." } } } ,
+                  affil
+                    std {
+                      affil "University of California at Berkeley" ,
+                      div "Environmental Science, Policy & Management" ,
+                      city "Berkeley" ,
+                      sub "CA" ,
+                      country "USA" ,
+                      street "130 Mulford Hall" ,
+                      postal-code "94720" } } ,
+                title "Community assembly on isolated islands: macroecology
+ meets evolution" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 7 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 5 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 30 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2015 } } } ,
+          create-date
+            std {
+              year 2015 ,
+              month 5 ,
+              day 30 } } ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG3" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288118824182141188112121122144
+442888118811111841221418881811248828148812182221842188818218118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888128118282814882118148144182144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288111818424482211111
+288882118141111118122228888884884482148888118812142148888128228188182828222148
+88814214414211821281812818811284122481188811181288248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKRG3_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG3" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG3_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG3_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG2" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F63483C11052A9FC3C00E148FCC1BDCBC4D53
+93F34C37FFCCBCC5CF78FA28FE8078F2C55C30DAE55E3325F5460E0C3308FF87DD515D3C3FC70D
+DCBD0CB28D2BD6B128E04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737C0CE6B5001FF432000C55FFFBEB4BFC3C492FF1D73CDDD52FF24A2434731CF0785B0FC0C7
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKRG2_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG2" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG2_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG2_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG1" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'F844112118114114118288118824182141188112121122144
+442888118811111841221418881811248828148812182221842188818218118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888128118282814882118148144182144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288111818424482211111
+288882118141111118122228888884884482148888118812142148888128228188182828222148
+88814214414211821281812818811284122481188811181288248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKRG1_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKRG1_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKRG1_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na '8844112118114114118288118824482141188112121122144
+442888118811111841221418881811848828148812182221842188818818118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888428118282814282118148144482144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288411818124482211111
+288882118141111118122228888884884182148888118812142118888128228288182828222148
+88814214414211821281812818811284122481188811181228248888884F82210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR4_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFFXP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR5" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CC6B5001FF432000C55FFFBE34BFC3C490FF1D77CDDD52FF24A2434731CF0785B0FC0C5
+DBFFE3500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR5_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR5" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR5_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR5_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.4" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na '8844112118114114118288118824482141188112121122144
+442888118811111841221418881811848828148812182221842188818818118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888428118282814282118148144482144882244
+812144184112148881222222188182811881812282121882844822182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288411818124482211111
+288882118141111118122228888884884182148888118812142118888128228288182828222148
+88814214414211821281812818811284122481188811181228248888884F82210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR4.4_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.4" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.4_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFFXP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.4_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.3" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 576 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7AD4DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CC6B5001FF432000C55FFFBE34BFC3C490FF1D77CDDD52FF24A2434731CF0785B0FC0C5
+DBFFE'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR4.3_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 575 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.3" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.3_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 191 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 190 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.3_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.2" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CC6B5001FF432000C55FFFBE34BFC3C490FF1D77CDDD52FF24A2434731CF0785B0FC0C5
+DBFFE3500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR4.2_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.2" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.2_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.2_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.1" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7AD4DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CC6B5001FF432000C55FFFBE34BFC3C490FF1D77CDDD52FF24A2434731CF0785B0FC0C5
+DBFFE3500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeKCR4.1_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeKCR4.1_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeKCR4.1_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI06" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F63483C11052A9FC3C00E148FCC1BDCBC4D53
+93F34C37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FC70D
+DCBD0CB28D2BD6B128E04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737C0CE6B5001FF432000C55FFFBEB4BFC3C492FF1D73CDDD52FF24A2434731CF0785B0FC0C7
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeJI06_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI06" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI06_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI06_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI05" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288118824182141188112121122144
+442888118811111841221418881811248828148812182221842188818218118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888128118282814882118148144182144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288111818424482211111
+288882118141111118122228888884884482148888118812142148888128228188182828222148
+88814214414211821281812818811284122481188811181288248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeJI05_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI05" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI05_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI05_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI03" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F63483C11052A9FC3C00E148FCC1BDCBC4D53
+93F34C37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FC70D
+DCBD0CB28D2BD6B128E04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737C0CE6B5001FF432000C55FFFBEB4BFC3C492FF1D73CDDD52FF24A2434731CF0785B0FC0C7
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeJI03_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI03" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI03_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI03_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI02" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288118824182141188112121122144
+442888118811111841221418881811248828148812182221842188818218118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888128118282814882118148144182144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288111818424482211111
+288882118141111118122228888884884482148888118812142148888128228188182828222148
+88814214414211821281812818811284122481188811181288248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeJI02_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI02" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI02_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI02_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI01" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'F844112118114114118288118824182141188112121122144
+442888118811111841221418881811248828148812182221842188818218118288888818148818
+122818828418844144188844111284188148122228118118844842222841818142288222124118
+411811818114188884128828222122282188118888128118282814882118148144182144882244
+812144184112148881222222188182811881812282121882844222182848841828212818888882
+228821818842844418814182118818144842818211888218882112818288111818424482211111
+288882118141111118122228888884884482148888118812142148888128228188182828222148
+88814214414211821281812818811284122481188811181288248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiaeJI01_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI01" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiaeJI01_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiaeJI01_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06L1" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F63483C91052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE8078F2C55C30FAE55E3325F5460E0C3308FF87DD515D3C3FC70D
+DCBD0CB2AD2BD6B12AE04BF1554F370F31744F7A54DEF8DD1CFFF57D33E7A8F2343CCAE7343F4F
+D073FE0CE6B5001FF432000C55FFFBE34B7C3C492FF1D77CD5D52FF24A2434731CF0785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06L1_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06L1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06L1_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELAQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06L1_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06L" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 459 ,
+                  seq-data
+                    ncbi2na '0E140DCC3BDFB44D5393F3CC3FDFCCBCC50DF8FA2BFE8078F
+2C55C30FAE5563325F5560C043308FFAF9D555DFC3FCF0FD49D0CB28D28D68128E84B315147B42
+711744F7A96DEC85F1CFFF47133E7ACF2343CCA273C3F4DDC73CC0CC635001FF432000C55FFFBE
+34BFC3449CFF1C75FD1C52FF8'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame one ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06L_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 458 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06L" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06L_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 153 ,
+                  seq-data
+                    ncbieaa "NDQIYNVLVTSHAFIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMN
+NMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSGPSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNF
+SMEKMPLFCWSVLITAILLLLSLPVL" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 152 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06L_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillaridiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GM" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811218114188884428828222122282288118228128118882814882818148144182144882244
+812144184112118881222222188182811881211282121282144222282848841828112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+28814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GM_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GM" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GM_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GM_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GL" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 580 ,
+                  seq-data
+                    ncbi4na 'F844112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811218114188884428828222122282288118228128118882814882818148144182144882244
+812144184112118881222222188182811881211282121282144222282848841828112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+288142144142118812818128488412841224811888111812282488888841222'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GL_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 579 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GL" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GL_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GL_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GK" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF8F63483C11052A9FC3C00E140FCC1BDCB04D53
+93F3CC37FFCCBCC5CF70FA28FE8078F2C55C38FAE55E3325F5460C0C1308FFA7DD515D7C35C70F
+DCBDCCB28D2BD6B128E043F1554F370F1074474A55DEF8DC1CFFF47133E7A8F2343CCAE73C3F4F
+D073FC0CC6B4001FF432000C55FFFBE34BFC3C492FF1F75CDDD52DF24A243C731EF8785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GK_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GK" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GK_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GK_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GJ" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE807AF2C55C30DAE55E3325FD460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7A54DEF8FD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CE6B5001FF432000C55FFFBE34BFC3C492FF1D7BCD1D52FF24A2434731CF0785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GJ_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GJ" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GJ_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDFTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GJ_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GF" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288118824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811818114188884428828222122282888118228128118882814882118148144482144882244
+812144184112118881222222188182811881811282121282144822282848841888112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+28814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GF_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GF" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GF_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GF_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GE" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF8F63483C11052A9FC3C00E140FCC1BDCB04D53
+93F3CC37FFCCBCC5CF70FA28FE8078F2C55C38FAE55E3325F5460C0C3308FFA7DD515DFC35C70F
+DCBD0CB2AD2BD6B128E043F1554F370F3074474AD5DEF8FC1CFFF47133E7A8F2343CCAE73C3F4F
+D073FC0CC6B4001FF432000C55FFFBE34BFC3C492FF1F75CDDD52DF24A243C731EF8785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GE_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GE" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GE_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GE_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GC" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na '8844112118114114118288418824182141188112121122144
+44288811881111184122111888181124882814811218222184218F818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811818114188884428828222122282888118228128118882814882118148144482144882244
+812144184112118881222222188182811881811282121282144822282848841888112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+28814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GC_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GC" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GC_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAXIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GC_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GB" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE807AF2C55C30DAE55E3325FD460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7A54DEF8FD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CE6B5001FF432000C55FFFBE34BFC3C492FF1D7BCD1D52FF24A2434731CF0785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GB_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GB" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GB_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDFTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GB_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GA" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na '884411211811F114118288118824482141188112121122144
+442888118811111841221418881811848828148812182221842188818818118288888818148818
+122818828418844144188844111284488148122228118118244842222841818142288822124118
+411811818114188884128828222122282188118888428118282814282118148144482144882244
+812144184112148881222222188182811881812282121882844222182848841888212818888882
+228821818842844418814182118818144842818211888218882112818288411818424482211111
+288882118141111118122228888884884182148888118812142148888128228488182128222148
+88814214414211821281812818811284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06GA_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GA" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06GA_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMXSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDFTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06GA_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FZ" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 525 ,
+                  seq-data
+                    ncbi2na '3C00E148FCC3BDCBC4D5393F3CC37FFCCBCC5CF78FA28FE80
+7AF2C55C30DAE55E3325FD460E0C3308FF87DD515D3C3FE70DDC9D0CB2AD2BD6B128E04BF1554F
+370F31744F7A54DEF8FD1CFFF57D33E7A8F2343CCAE7343F4FD0737E0CE6B5001FF432000C55FF
+FBE34BFC3C492FF1D7BCD1D52FF24A2434731CF0785B0FC0C5DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame one ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06FZ_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 524 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FZ" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FZ_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 175 ,
+                  seq-data
+                    ncbieaa "IKNDQIYNVLVTSHAFIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPR
+MNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDFTIFSLHIAGISSIMGAINFISTILNMRSK
+NFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 174 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FZ_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FY" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FFF4112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811218114188884428828222122282288118228128118882814882818148144182144882244
+812144184112118881222222188182811881211282121282144222282848841828112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+28814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06FY_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FY" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FY_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "XTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FY_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FU" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 580 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF0F6B483C11052A9FC3C00E148FCC3BDCBC4D53
+93F3CC37FFCCBCC5CF78FA28FE807AF2C55C30DAE55E3325FD460E0C3308FF87DD515D3C3FE70D
+DC9D0CB2AD2BD6B128E04BF1554F370F31744F7A54DEF8FD1CFFF57D33E7A8F2343CCAE7343F4F
+D0737E0CE6B5001FF432000C55FFFBE34BFC3C492FF1D7BCD1D52FF24A2434731CF0785B0FC0C5
+DBFFE15'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06FU_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 579 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FU" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FU_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSNYTSHSGPSVDFTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FU_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FT" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF8F63483C11052A9FC3C00E140FCC1BDCB04D53
+93F3CC37FFCCBCC5CF70FA28FE8078F2C55C38FAE55E3325F5460C0C1308FFA7DD515D7C35C70F
+DCBDCCB28D2BD6B128E043F1554F370F1074474A55DEF8DC1CFFF47133E7A8F2343CCAE73C3F4F
+D073FC0CC6B4001FF432000C55FFFBE34BFC3C492FF1F75CDDD52DF24A243C731EF8785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06FT_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FT" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FT_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FT_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FA" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi2na 'FA0430820DF8F63483C11052A9FC3C00E140FCC1BDCB04D53
+93F3CC37FFCCBCC5CF70FA28FE8078F2C55C38FAE55E3325F5460C0C3308FFA7DD515DFC35C70F
+DCBD0CB2AD2BD6B128E043F1554F370F3074474AD5DEF8FC1CFFF47133E7A8F2343CCAE73C3F4F
+D073FC0CC6B4001FF432000C55FFFBE34BFC3C492FF1F75CDDD52CF24A243C731EF8785B0FC0C5
+DBFFE1500'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06FA_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FA" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06FA_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06FA_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EZ" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 580 ,
+                  seq-data
+                    ncbi4na 'F844112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811818114188884428828222122282888118228128118882814882118148144482144882244
+812144184112118881222222188182811881811282121282144822282848841888112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+188142144142118812818128488412841224811888111812282488888841222'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06EZ_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 579 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EZ" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EZ_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EZ_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EX" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811818114188884428828222122282888118228128118882814882118148144482144882244
+812144184112118881222222188182811881811282121282144822282848841888112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+18814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06EX_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EX" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EX_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EX_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne raillardiae" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EW" } ,
+                descr {
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W for Geneious v. v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 581 ,
+                  seq-data
+                    ncbi4na 'FF44112118114114118288418824182141188112121122144
+442888118811111841221118881811248828148112182221842188818818118288888818148818
+122818828118844144188844111284188148122228118418844842222841818142288222124118
+111811818114188884428828222122282888118228128118882814882118148144482144882244
+812144184112118881222222188182811881811282121282144822282848841888112818888882
+128121818842844418814182118818144842818811888218882112818888111818124482111111
+288882118141111118122228888884884182148888118812142148888128828228182828222148
+18814214414211881281812848841284122481188811181228248888884122210'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame three ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.raillardiae06EW_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 580 ,
+                              strand plus ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EW" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.raillardiae06EW_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 193 ,
+                  seq-data
+                    ncbieaa "GTMSSILIRSELTQPGALIKNDQIYNVLVTSHAFIMIFFMVMPILIGGF
+GNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTIYPPLSNYNSHSGPSVDLTIFSLHIAGIS
+SIMGAINFISTILNMRSKNFSMEKMPLFCWSVLITAVLLLLSLPVLAGAITMLLTDRNLNTSFFDP" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 192 ,
+                              id
+                                local
+                                  str "Nesosydne.raillardiae06EW_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } } } } }

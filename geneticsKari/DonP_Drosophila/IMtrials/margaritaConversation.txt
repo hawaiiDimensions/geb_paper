@@ -1,0 +1,33 @@
+im runs with m and l mode command lines
+ima chartB
+prior files
+
+mutation rate? 
+how to view distributions so i can adjust second runs? 
+	IMfig??
+
+how to deal with all of the different results files 
+(main, geneology-.ti, markov chain state file .mcf for restarting a run, 
+migration historgram files .mpt for plotting counts and times of migration events, 
+and burntend files for showing trend lines during burnin)? 
+
+M vs L mode
+
+-q2=ancestral population
+
+rules of thumb for assessing mixing, besides ESS values
+
+heating schemes - ha, hb
+
+
+can set your generation time within the program. (margarita did this)
+is this -u?
+
+Estimating divergence times and migration rates in the B and Q biotypes using the Isolation with Migration (IM) model
+
+We examined the divergence history between biotypes B and Q and their closest relatives by fitting an Isolation with Migration (IM) model implemented in the program IMa2 (Hey 2010a; Hey 2010b; Hey and Nielsen 2007; Nielsen and Wakeley 2001).  Divergence times and migration rates were estimated for two pairs of populations: 1) Cyprus (B-like biotype) and Yemen (B relative) and 2) Cyprus (Q-like biotype, labeled QEAST) and Spain (Q biotype, labeled QWEST).[O1] 
+
+The IMa2 model implements a Bayesian Markov Chain Monte Carlo approach to estimate posterior probability densities of parameters for effective population sizes, gene flow, and time of population splitting.  In its simplest form, this model assumes that an ancestral population diverged at some time t in the past, giving rise to two daughter populations, which have may have exchanged genes since their divergence.  When a two-population model is used, IMa2 estimates six demographic parameters: effective sizes of the ancestral and derived populations NA, N0, N1, time t since divergence, and migration rates between derived populations in both directions m0®1 and m1®0.  One assumption of the model is that there are no other populations that are more closely related to the sampled populations than to each other (http://genfaculty.rutgers.edu/hey/software).  For this reason, we applied this method only to a population pair consisting of the B biotype and Yemen haplotype, and to a pair consisting of the QWEST and QEAST lineage, respectively, and not between the more distantly related B and Q biotypes.  This decision was based on the results of our previous analyses and other work which showed that the Yemen population is the closest relative of biotype B (Frohlich et al. 1999), and the QWEST and QEAST lineages are each others' closest relatives (Hadjistylli et al submitted).  We used a total of 12 loci for the biotype B-Yemen analysis and 10 loci for the QWEST-QEAST analysis (Table 2).  We selected loci that did not seem to deviate from the stepwise mutation model (SMM), based on the distribution of the alleles.  We converted allele sizes to repeat numbers and rounded to the closest integer alleles for which we obtained non-integer repeat numbers.
+
+The guidelines recommended in the IMa2 documentation (http://genfaculty.rutgers.edu/hey/software) were followed to select upper bounds for the parameter prior distributions, and after multiple preliminary runs, we adjusted the priors for the final run according to posterior probability distributions and set upper bounds for population size at q=200, splitting time t=5, migration rate m=20 for the QWEST-QEAST run, or m=10 for the biotype B-Yemen run.  After multiple trial runs we chose geometric heating schemes (ha=0.96, hb=0.9) that achieved good mixing, following examination of the resulting trendlines and Effective Sample Size (ESS) values (>120).  For the final analyses, we ran the program using 50 chains, sampling more than 100,000 genealogies per locus (saving every 100 steps) following a burn-in of 500,000 steps.  Two independent runs with different random number seeds were done for each analysis, resulting to a total of 269,821 genealogies for the biotype B-Yemen run and 255,667 for the QWEST-QEAST run.  These resulting genealogies were loaded to the L (Load Genealogies) mode run in IMa2 for each analysis to estimate joint-posterior densities of parameters. 
+To obtain demographic parameter estimates from model parameter estimates we set the microsatellite mutation rate estimated previously for Drosophila melanogaster (Schug et al. 1998) as 1x10-4 (with a range of 1x10-5 – 1x10-2) per year for each locus.  We set the generation time at 0.1, which is 10 generations per year, an approximate estimate of generation time per year in this species (Butler et al. 1983).  Finally, the supplementary program IMfig (http://genfaculty.rutgers.edu/hey/software) was used to generate figures of the model from the IMa2 output file.[O2] 

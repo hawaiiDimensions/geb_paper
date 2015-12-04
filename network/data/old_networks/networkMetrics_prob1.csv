@@ -1,0 +1,9 @@
+"siteCode","name","island","age_mya","metric","statistic","z.value","p.value","null.mod","nsim"
+"Kil","Kilauea","Hawaii",3e-04,"nodf",8.51179410319555,11.3685677280099,0.001,"prob.null1",999
+"Kil","Kilauea","Hawaii",3e-04,"mod.dendro",0.628327785999085,10.0302770350083,0.001,"prob.null1",999
+"Koh","Kohala","Hawaii",0.15,"nodf",9.4989802840143,10.4706740837786,0.001,"prob.null1",999
+"Koh","Kohala","Hawaii",0.15,"mod.dendro",0.627094712459607,9.23631599005186,0.001,"prob.null1",999
+"Hal","Haleakala","Maui",0.75,"nodf",8.30333105910229,10.3896711176001,0.001,"prob.null1",999
+"Hal","Haleakala","Maui",0.75,"mod.dendro",0.596555880204528,5.68208441668406,0.001,"prob.null1",999
+"KoK","Kokee","Kauai",5.1,"nodf",5.75129776089226,6.84142704805389,0.001,"prob.null1",999
+"KoK","Kokee","Kauai",5.1,"mod.dendro",0.688855522188856,7.49869164472524,0.001,"prob.null1",999

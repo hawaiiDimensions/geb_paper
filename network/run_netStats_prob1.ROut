@@ -1,0 +1,63 @@
+
+R version 3.0.3 (2014-03-06) -- "Warm Puppy"
+Copyright (C) 2014 The R Foundation for Statistical Computing
+Platform: x86_64-apple-darwin10.8.0 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> setwd('~/Dropbox/hawaiiDimensions/geb_paper/network')
+> source('run_netStats_prep.R')
+Loading required package: vegan
+Loading required package: permute
+Loading required package: lattice
+This is vegan 2.0-10
+Loading required package: sna
+sna: Tools for Social Network Analysis
+Version 2.3-2 created on 2014-01-13.
+copyright (c) 2005, Carter T. Butts, University of California-Irvine
+ For citation information, type citation("sna").
+ Type help(package="sna") to get started.
+
+ This is bipartite 2.04
+ For latest changes see versionlog in  ?"bipartite-package".
+ For citation see: citation("bipartite").
+ Have a nice time plotting and analysing two-mode networks.
+
+
+Attaching package: ‘igraph’
+
+The following objects are masked from ‘package:sna’:
+
+    %c%, betweenness, bonpow, closeness, degree, dyad.census, evcent,
+    hierarchy, is.connected, neighborhood, triad.census
+
+> 
+> ## run network metrics using Bascompte probabilistic null
+> nullm <- 'prob.null1'
+> 
+> res <- data.frame(run.info,
++                   do.call(rbind, lapply(bimat, net.sim, fun=net.mets, method=get(nullm), nsim=nsim)),
++                   null.mod = nullm, nsim=nsim
++                   )
+using 24 cores 
+using 24 cores 
+using 24 cores 
+using 24 cores 
+> 
+> write.table(res, file='networkMetrics_prob1.csv', sep=',', row.names=FALSE)
+> 
+> proc.time()
+     user    system   elapsed 
+26891.122   177.113  2274.873 

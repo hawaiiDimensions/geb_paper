@@ -1,0 +1,52 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: dimensions_geb_s2.aux
+The style file: geb.bst
+Database file #1: dimensions_geb.bib
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Warning--empty journal in goodmanInRev
+Warning--empty journal in miller1997
+Warning--can't use both author and editor fields in roderick2008
+Warning--empty chapter and pages in roderick2008
+You've used 66 entries,
+            3049 wiz_defined-function locations,
+            1044 strings with 16893 characters,
+and the built_in function-call counts, 38564 in all, are:
+= -- 3202
+> -- 1660
+< -- 41
++ -- 667
+- -- 574
+* -- 3187
+:= -- 6180
+add.period$ -- 129
+call.type$ -- 66
+change.case$ -- 513
+chr.to.int$ -- 67
+cite$ -- 70
+duplicate$ -- 2631
+empty$ -- 2804
+format.name$ -- 781
+if$ -- 7450
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 574
+newline$ -- 202
+num.names$ -- 264
+pop$ -- 988
+preamble$ -- 1
+purify$ -- 455
+quote$ -- 0
+skip$ -- 884
+stack$ -- 0
+substring$ -- 2155
+swap$ -- 1428
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 573
+warning$ -- 4
+while$ -- 295
+width$ -- 0
+write$ -- 715
+(There were 4 warnings)

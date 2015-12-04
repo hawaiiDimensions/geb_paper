@@ -1,0 +1,285 @@
+Submit-block ::= {
+  contact {
+    contact {
+      name
+        name {
+          last "Goodman" ,
+          first "Kari" ,
+          initials "K.R." } ,
+      affil
+        std {
+          affil "University of California at Berkeley" ,
+          div "Environmental Science, Policy & Management" ,
+          city "Berkeley" ,
+          sub "CA" ,
+          country "U.S.A." ,
+          street "130 Mulford Hall" ,
+          email "krgoodman@berkeley.edu" ,
+          fax "510-643-3058" ,
+          phone "510-913-2109" ,
+          postal-code "94720" } } } ,
+  cit {
+    authors {
+      names
+        std {
+          {
+            name
+              name {
+                last "Rominger" ,
+                first "Andrew" ,
+                initials "A.J." } } ,
+          {
+            name
+              name {
+                last "Goodman" ,
+                first "Kari" ,
+                initials "K.R." } } ,
+          {
+            name
+              name {
+                last "Lim" ,
+                first "Jun" ,
+                initials "J.Y." } } ,
+          {
+            name
+              name {
+                last "Armstrong" ,
+                first "Ellie" ,
+                initials "E.E." } } ,
+          {
+            name
+              name {
+                last "Becking" ,
+                first "Lisa" ,
+                initials "L.E." } } ,
+          {
+            name
+              name {
+                last "Bennett" ,
+                first "Gordon" ,
+                initials "G.M." } } ,
+          {
+            name
+              name {
+                last "Brewer" ,
+                first "Michael" ,
+                initials "M.S." } } ,
+          {
+            name
+              name {
+                last "Cotoras" ,
+                first "Darko" ,
+                initials "D.D." } } ,
+          {
+            name
+              name {
+                last "Ewing" ,
+                first "Curtis" ,
+                initials "C.P." } } ,
+          {
+            name
+              name {
+                last "Harte" ,
+                first "John" ,
+                initials "J." } } ,
+          {
+            name
+              name {
+                last "Martinez" ,
+                first "Neo" ,
+                initials "N.D." } } ,
+          {
+            name
+              name {
+                last "O'Grady" ,
+                first "Patrick" ,
+                initials "P.M." } } ,
+          {
+            name
+              name {
+                last "Percy" ,
+                first "Diana" ,
+                initials "D.M." } } ,
+          {
+            name
+              name {
+                last "Price" ,
+                first "Donald" ,
+                initials "D.K." } } ,
+          {
+            name
+              name {
+                last "Roderick" ,
+                first "George" ,
+                initials "G.K." } } ,
+          {
+            name
+              name {
+                last "Shaw" ,
+                first "Kerry" ,
+                initials "K.L." } } ,
+          {
+            name
+              name {
+                last "Valdovinos" ,
+                first "Fernanda" ,
+                initials "F.S." } } ,
+          {
+            name
+              name {
+                last "Gruner" ,
+                first "Daniel" ,
+                initials "D.S." } } ,
+          {
+            name
+              name {
+                last "Gillespie" ,
+                first "Rosemary" ,
+                initials "R.G." } } } ,
+      affil
+        std {
+          affil "University of California at Berkeley" ,
+          div "Environmental Science, Policy & Management" ,
+          city "Berkeley" ,
+          sub "CA" ,
+          country "U.S.A." ,
+          street "130 Mulford Hall" ,
+          postal-code "94720" } } ,
+    date
+      std {
+        year 2015 ,
+        month 5 ,
+        day 30 } } ,
+  subtype new }
+Seqdesc ::= pub {
+  pub {
+    gen {
+      cit "unpublished" ,
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Rominger" ,
+                  first "Andrew" ,
+                  initials "A.J." } } ,
+            {
+              name
+                name {
+                  last "Goodman" ,
+                  first "Kari" ,
+                  initials "K.R." } } ,
+            {
+              name
+                name {
+                  last "Lim" ,
+                  first "Jun" ,
+                  initials "J.Y." } } ,
+            {
+              name
+                name {
+                  last "Armstrong" ,
+                  first "Ellie" ,
+                  initials "E.E." } } ,
+            {
+              name
+                name {
+                  last "Becking" ,
+                  first "Lisa" ,
+                  initials "L.E." } } ,
+            {
+              name
+                name {
+                  last "Bennett" ,
+                  first "Gordon" ,
+                  initials "G.M." } } ,
+            {
+              name
+                name {
+                  last "Brewer" ,
+                  first "Michael" ,
+                  initials "M.S." } } ,
+            {
+              name
+                name {
+                  last "Cotoras" ,
+                  first "Darko" ,
+                  initials "D.D." } } ,
+            {
+              name
+                name {
+                  last "Ewing" ,
+                  first "Curtis" ,
+                  initials "C.P." } } ,
+            {
+              name
+                name {
+                  last "Harte" ,
+                  first "John" ,
+                  initials "J." } } ,
+            {
+              name
+                name {
+                  last "Martinez" ,
+                  first "Neo" ,
+                  initials "N.D." } } ,
+            {
+              name
+                name {
+                  last "O'Grady" ,
+                  first "Patrick" ,
+                  initials "P.M." } } ,
+            {
+              name
+                name {
+                  last "Percy" ,
+                  first "Diana" ,
+                  initials "D.M." } } ,
+            {
+              name
+                name {
+                  last "Price" ,
+                  first "Donald" ,
+                  initials "D.K." } } ,
+            {
+              name
+                name {
+                  last "Roderick" ,
+                  first "George" ,
+                  initials "G.K." } } ,
+            {
+              name
+                name {
+                  last "Shaw" ,
+                  first "Kerry" ,
+                  initials "K.L." } } ,
+            {
+              name
+                name {
+                  last "Valdovinos" ,
+                  first "Fernanda" ,
+                  initials "F.S." } } ,
+            {
+              name
+                name {
+                  last "Gruner" ,
+                  first "Daniel" ,
+                  initials "D.S." } } ,
+            {
+              name
+                name {
+                  last "Gillespie" ,
+                  first "Rosemary" ,
+                  initials "R.G." } } } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy & Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "U.S.A." ,
+            street "130 Mulford Hall" ,
+            postal-code "94720" } } ,
+      title "Community assembly on isolated islands: macroecology meets
+ evolution" } } }

@@ -1,0 +1,92 @@
+Submit-block ::= {
+  contact {
+    contact {
+      name
+        name {
+          last "Goodman" ,
+          first "Kari" ,
+          initials "K.R." } ,
+      affil
+        std {
+          affil "University of California at Berkeley" ,
+          div "Environmental Science, Policy and Management" ,
+          city "Berkeley" ,
+          sub "CA" ,
+          country "USA" ,
+          street "130 Mulford Hall" ,
+          email "krgoodman@berkeley.edu" ,
+          phone "510-913-2109" ,
+          postal-code "94720-3114" } } } ,
+  cit {
+    authors {
+      names
+        std {
+          {
+            name
+              name {
+                last "Rominger" ,
+                first "Andrew" ,
+                initials "A.J." } } ,
+          {
+            name
+              name {
+                last "Goodman" ,
+                first "Kari" ,
+                initials "K.R." } } ,
+          {
+            name
+              name {
+                last "Lim" ,
+                first "Jun" ,
+                initials "J.Y." } } } ,
+      affil
+        std {
+          affil "University of California at Berkeley" ,
+          div "Environmental Science, Policy and Management" ,
+          city "Berkeley" ,
+          sub "CA" ,
+          country "USA" ,
+          street "130 Mulford Hall" ,
+          postal-code "94720-3114" } } ,
+    date
+      std {
+        year 2015 ,
+        month 3 ,
+        day 31 } } ,
+  subtype new }
+Seqdesc ::= pub {
+  pub {
+    gen {
+      cit "unpublished" ,
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Rominger" ,
+                  first "Andrew" ,
+                  initials "A.J." } } ,
+            {
+              name
+                name {
+                  last "Goodman" ,
+                  first "Kari" ,
+                  initials "K.R." } } ,
+            {
+              name
+                name {
+                  last "Lim" ,
+                  first "Jun" ,
+                  initials "J.Y." } } } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy and Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "USA" ,
+            street "130 Mulford Hall" ,
+            postal-code "94720-3114" } } ,
+      title "Community Assembly on Isolated Islands: Macroecology Meets
+ Evolution" } } }

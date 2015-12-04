@@ -1,0 +1,75 @@
+Log file path: S:/Dimensions arlequin files/Brevignatha_allo_arlequin.res/Arlequin_log.txt
+Core Routine Directory: //psf/Shared PC folder/WinArl35/
+Random number generator initialized with lidum=-1964241
+Reading project profile section...
+done !
+Opening next project...
+S:/Dimensions arlequin files/Brevignatha_allo_arlequin.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (28/05/14 at 07:35:41)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading BWAI ... 
+	done ! (0 ms)
+
+	Reading KCAR ... 
+	done ! (0 ms)
+
+	Reading RWAI ... 
+	done ! (0 ms)
+
+	Reading WWAI ... 
+	done ! (0 ms)
+
+	Reading WCAR ... 
+	done ! (0 ms)
+
+	done reading Samples section! (1027423549 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (1027423549 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+
+Population 'BWAI' : 
+   1 #[ERROR # 1] from function "PopulStandard::compute_distance_matrix()" : haplotype list is empty
+done in 0 ms
+
+Population 'KCAR' : 
+   2 #[ERROR # 2] from function "PopulStandard::compute_distance_matrix()" : haplotype list is empty
+done in 0 ms
+
+Population 'RWAI' : 
+   3 #[ERROR # 3] from function "PopulStandard::compute_distance_matrix()" : haplotype list is empty
+done in 0 ms
+
+Population 'WWAI' : 
+   4 #[ERROR # 4] from function "PopulStandard::compute_distance_matrix()" : haplotype list is empty
+done in 0 ms
+
+Population 'WCAR' : 
+   5 #[ERROR # 5] from function "PopulStandard::compute_distance_matrix()" : haplotype list is empty
+done in 0 ms
+	Converting phenotypic to haplotypic data ...
+	done ! (0 ms)
+		Beginning distance computations ...
+		done ! (0 ms)
+		Computing F statistics ...
+		done ! (47 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (28/05/14 at 07:35:41))
+Total computing time for this run : 0h 0m 0s 62 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of S:/Dimensions arlequin files/Brevignatha_allo_arlequin.arp

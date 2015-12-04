@@ -1,0 +1,11 @@
+PopNumber, ID, Volcano, Site, substrateAge
+1,  06FBa, Mauna Loa, HIVO 8000ft, 1500-3000
+2,  0807a, Mauna Loa, HIVO 6600ft, 1500-3000
+3,  LOR1, Mauna Loa, Mauna Loa Observatory Rd., <200 
+4,  0849a, Mauna Loa, Mauna Loa Observatory Rd., 1500-3000 
+5,  0851a, Mauna Loa, Mauna Loa Observatory Rd., 200-750
+6,  06GV1, Mauna Loa, Saddle max elev, mosaic, <200 and 1500-3000
+7,  52002, Mauna Loa, Saddle 5200 ft, <200
+8,  W0962, Mauna Kea, Waipahoehoe, 14000-65000 
+9,  P005B, Mauna Kea, Puu Kanakaleonui, 14000-65000 
+10, JI10,  Mauna Kea, Puu Naau, 4000-14000

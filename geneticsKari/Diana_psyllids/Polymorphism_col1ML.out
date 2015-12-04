@@ -1,0 +1,94 @@
+ DnaSP  Ver. 5.10.01                        26 - April - 2014  1:16:43 PM
+ ========================================================================
+
+
+ Overview: Polymorphism Data
+ ---------------------------
+
+ Input Data File: C:\...\DimensionsMet-PSYLLIDsDecDNAsp.nex
+ Population used: HI_col1_MLoa
+    Number of sequences used: 7
+ Selected region: 1-857   Number of sites: 857
+ Total number of sites (excluding sites with gaps / missing data): 857
+
+ Number of variable sites, S: 112
+ Total number of mutations, Eta: 113
+
+ ===================== G+C content ===================== 
+ G+C content, G+C: 0.319    (857.00 sites)
+
+ ============ Haplotype/Nucleotide Diversity ============ 
+ Number of Haplotypes, h: 6
+ Haplotype (gene) diversity, Hd: 0.952
+    Variance of Haplotype diversity: 0.00912
+       Standard Deviation of Haplotype diversity: 0.096
+
+ Nucleotide diversity (per site), Pi: 0.06251
+    Sampling variance of Pi: 0.0003634
+       Standard deviation of Pi: 0.01906
+ Average number of nucleotide differences, k: 53.57143
+ Theta (per sequence) from Eta: 46.12245
+ Theta (per site) from Eta: 0.05382
+
+ ================== Neutrality Tests ================== 
+ Tajima's D: 0.94437
+     Statistical significance: Not significant, P > 0.10
+ Fu and Li's D* test statistic: 1.53828
+     Statistical significance: *, P < 0.05
+ Fu and Li's F* test statistic: 1.55729
+     Statistical significance: Not significant, 0.10 > P > 0.05
+ Fu's Fs statistic: 3.049
+ Strobeck's S statistic: 0.314
+    (Probability that NHap <= 6)
+ Probability that [NHap = 6]: 0.269
+
+ Calculated using the total number of mutations
+
+
+ DnaSP  Ver. 5.10.01                        26 - April - 2014  1:17:28 PM
+ ========================================================================
+
+
+ DNA Polymorphism
+ ----------------
+
+ Input Data File: C:\...\DimensionsMet-PSYLLIDsDecDNAsp.nex
+ Population used: HI_col1_MLoa
+    Number of sequences used: 7
+ Selected region: 1-857   Number of sites: 857
+ Total number of sites (excluding sites with gaps / missing data): 857
+
+ Number of polymorphic (segregating) sites, S: 112
+ Total number of mutations, Eta: 113
+
+ Number of Haplotypes, h: 6
+ Haplotype (gene) diversity, Hd: 0.952
+    Variance of Haplotype diversity: 0.00912
+       Standard Deviation of Haplotype diversity: 0.096
+
+ Nucleotide diversity, Pi: 0.06251
+ Theta (per site) from Eta: 0.05382
+
+ Theta (per site) from S, Theta-W: 0.05334
+    Variance of theta (no recombination): 0.0005866
+       Standard deviation of theta (no recombination): 0.02422
+    Variance of theta (free recombination): 0.0000254
+       Standard deviation of theta (free recombination): 0.00504
+
+ Finite Sites Model 
+    Theta (per site) from Pi: 0.06819
+    Theta (per site) from S: 0.05877
+    Theta (per site) from Eta: 0.05727
+
+ Average number of nucleotide differences, k: 53.571
+    Stochastic variance of k (no recombination), Vst(k): 499.856
+    Sampling variance of k (no recombination), Vs(k): 201.047
+       Total variance of k (no recombination), V(k): 700.903
+    Stochastic variance of k (free recombination), Vst(k): 17.857
+    Sampling variance of k (free recombination), Vs(k): 5.952
+       Total variance of k (free recombination), V(k): 23.810
+
+ Theta (per sequence) from S, Theta-W: 45.714
+    Variance of theta (no recombination): 430.844
+    Variance of theta (free recombination): 18.659
+

@@ -1,0 +1,64 @@
+#================================
+#Project file created by Arlequin
+#================================
+
+#    (symbol # is used to comment what follows on a line)
+
+[Profile]
+     NbSamples=3
+     DataType=STANDARD  # - {DNA, RFLP, MICROSAT, STANDARD, FREQUENCY}
+     GenotypicData=0  # - {0, 1}
+     GameticPhase=1  # - {0, 1}
+     LocusSeparator=NONE  # - {TAB, WHITESPACE, NONE}
+     RecessiveData=0  # - {0, 1}
+     MissingData='?'  # A single character specifying missing data
+#    Some advanced settings the experienced user can uncomment
+#    Frequency= ABS             # - {ABS, REL}
+#    FrequencyThreshold= 1.0e-5 # - (Any real number, usually between 1.0e-7 and 1.e-3)
+#    EpsilonValue= 1.0e-7       # - (Any real number, usually between 1.0e-12 and 1.0e-5)
+
+[Data]
+
+
+[[Samples]]
+
+
+     SampleName="PUUMAKAALA"
+     SampleSize= 2  #Fictive number, but must match the sume of haplotype frequencies given below
+	   SampleData= {
+        #Example of a sample consisiting of haplotypic data (2 haplotypes, 2 loci):
+waikulaPu	1	122112212112121221122121121212121221122112121212121221
+hiwaMAK6	1	122112212121211212121212122112211221122112121212122121
+			}
+			
+     SampleName="THURSTON"
+     SampleSize= 4  #Fictive number, but must match the sume of haplotype frequencies given below
+	   SampleData= {
+        #Example of a sample consisiting of haplotypic data (2 haplotypes, 2 loci):
+waikThu2	1	122112212112121221122121122112121221122112121212121221
+waikTHUm	1	122112212112121221122121122112121221122112121212121221
+waikTHU1	1	122112212112121221122121122112121221122112121212121221
+hiwaThur	1	122112212121211221121212122112211221122112121212121221
+			}
+
+     SampleName="KIPUKAS"
+     SampleSize= 2  #Fictive number, but must match the sume of haplotype frequencies given below
+	   SampleData= {
+        #Example of a sample consisiting of haplotypic data (2 haplotypes, 2 loci):
+waikKIP6	1	122112212112122121122121121212121221122112211212121221
+waikKip9	1	122112212121211221122121211212121221212112121221121221
+     }
+
+
+	[[Structure]]
+
+		StructureName="New Edited Structure"
+		NbGroups=1
+
+		Group={
+			"THURSTON"
+			"PUUMAKAALA"
+			"KIPUKAS"
+		}
+
+

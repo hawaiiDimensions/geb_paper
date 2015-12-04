@@ -1,0 +1,420 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage[pdftex]{graphicx}
+\usepackage{natbib}
+\usepackage[margin=1in]{geometry}
+\usepackage{textcomp}
+\usepackage{lineno}
+
+%% for citing stuff in the supp
+\usepackage{xr}
+\externaldocument{dimensions_geb_supp}
+
+%% make lists more compact
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+\setenumerate{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt}
+
+\title{\vspace{-1em}Community assembly on isolated islands:
+  Macroecology meets evolution}
+
+\author{}
+
+\date{}
+
+%%%%%%%%%%%%%%%%% END OF PREAMBLE %%%%%%%%%%%%%%%%
+
+\begin{document}
+\baselineskip24pt
+\maketitle 
+
+\vspace{-4em}
+
+A. J. Rominger$^{1*}$,
+K. R. Goodman$^{1*}$, 
+J. Y. Lim$^{2*}$, 
+F. S. Valdovinos$^{3*}$, 
+E. Armstrong$^1$,
+G. M Bennett$^4$,
+M. S. Brewer$^1$, 
+D. D. Cotoras$^2$, 
+C. P. Ewing$^5$, 
+J. Harte$^1$,
+N. Martinez$^3$,
+P. O'Grady$^1$,
+D. Percy$^6$,
+D. Price$^5$,
+G. K. Roderick$^1$,
+K. Shaw$^7$,
+D. S. Gruner$^{8\#}$,
+R. G. Gillespie$^{1\#}$
+
+\begin{enumerate}
+\item Environmental Science, Policy, and Management, University of
+  California, Berkeley, California 94720-3114
+\item Integrative Biology, University of California, Berkeley,
+  California 94720-3140
+\item Pacific Ecoinformatics and Computational Ecology Lab, Berkeley,
+  California 94703
+\item Integrative Biology, University of Texas, Austin, Texas 78712
+\item Biology, University of Hawaii, Hilo, Hawaii, 96720-4091
+\item Entomology, The Natural History Museum, London, UK SW7 5BD
+\item Neurobiology and Behavior, Cornell, Ithaca, New York 14853-7601
+\item Department of Entomology, University of Maryland, College Park,
+  Maryland 20742-4454
+\item[*] Contributed equally;
+\item[\#] co-senior authors; 
+\item[] corresponding author: R. G. Gillespie, gillespie@berkeley.edu.
+\end{enumerate}
+
+
+% Email addresses: Andy Rominger <ajrominger@gmail.com>, Kari Roesch
+% Goodman <krgoodman@berkeley.edu>, Jun Ying Lim <
+% junyinglim@berkeley.edu>, Fernanda Valdovinos
+% <fevaldovinos@gmail.com>, Gordon M Bennett
+% <gordon.bennett@utexas.edu>, Michael Brewer
+% <michaelsbrewer@gmail.com>, Darko Cotoras <darkocotoras@berkeley.edu>,
+% Curtis Ewing <curtisewing1@gmail.com>, John Harte
+% <jharte@berkeley.edu>, Neo Martinez <neo@PEaCElab.net>, Patrick
+% O’Grady <ogrady@drosophilaevolution.com>, Diana Percy
+% <d.percy@nhm.ac.uk>, Donald Price <donaldp@hawaii.edu>, George
+% Roderick <roderick@berkeley.edu>, Kerry Shaw <KLS4@cornell.edu>, Dan
+% Gruner <dsgruner@umd.edu>, Rosemary Gillespie <gillespie@berkeley.edu>
+\vspace{2em}
+
+Keywords: networks, modularity, arthropods, population genetics,
+chronosequence, Hawaii
+
+Running title: Community assembly on isolated islands
+
+Number of words in the abstract: 297
+
+Number of words in main body of the paper: 5117
+
+Number of references: 81
+
+\clearpage
+
+\begin{linenumbers}
+
+\section*{Abstract}
+
+\paragraph{Aim}
+Understanding how ecological and evolutionary processes
+synergistically determine biodiversity patterns remains a central goal in
+biology. In highly isolated archipelagoes such as the Hawaiian
+Islands, beyond the reach of equilibrium colonization dynamics, rapid
+{\it in situ} diversification and speciation have the potential to keep pace
+with ecological dynamics. Using multiple arthropod lineages across the
+Hawaiian model system, we explore how complex communities emerge from
+ecological (population dynamics, dispersal, trophic interactions) and
+evolutionary (genetic structuring, adaptation, speciation, extinction)
+processes.
+
+\paragraph{Location}
+The Hawaiian Islands ($19.5\textdegree$N, $155.5\textdegree$W).
+
+\paragraph{Methods}
+We synthesize data on genetic structure of select arthropod species
+across Hawaiian landscapes of known age, which is used to infer
+processes involved in early diversification. We also develop a
+plant-herbivore bipartite network across the range of geological ages
+of the current high islands ($< 1$ my to 5 my), analyzing measures of
+nestedness, modularity and degree distributions. These are then
+compared with theoretical predictions derived from the principle of
+maximum information entropy.
+
+\paragraph{Results}
+Based on the time perspective provided by the island chronosequence
+and genetic information, we demonstrate that lower trophic levels
+develop local divergence more quickly than species of higher trophic
+levels. Higher trophic levels also show endemism, though it evolves
+more slowly and over larger areas. Moreover, in analyzing the
+plant-herbivore networks across an increasing substrate age gradient
+we find trends of higher specialization and increasing deviation from
+the statistical steady state expected from theoretical predictions of
+food web structure.
+
+\paragraph{Main conclusions}
+we show how ecological theory can leverage natural experiments on
+oceanic islands of known chronologies to test how the interplay
+between evolutionary and ecological processes has shaped present-day
+biodiversity. We advocate for combining perspectives gained from
+coupled molecular and community-level data across broad taxonomic
+scales and demonstrate its potential using previously published data,
+providing motivation to expand ecological theory to better incorporate
+dynamic evolutionary processes.
+
+
+\section*{Introduction}
+
+ABSTRACT 
+
+INTRODUCTION
+
+The integration of ecological and evolutionary theory has the potential to reveal dynamics that generate biodiversity. Contemporary biodiversity is an unresolved product of speciation, extinction and dispersal all conditioned by ecological interactions.  Because these processes occur on different temporal and spatial scales and may be interactive with nonlinear feedbacks and lags among them, disentangling the relative influence of local ecological processes from evolutionary and historical processes is challenging (Ricklefs 2004). 
+The evolutionary processes of speciation and extinction tend to be viewed as regulating regional species pools, occurring in a manner largely removed from local ecology (Hubbell, 2001; Cavender-Bares et al., 2009 ). Ecological mechanisms tend to be viewed as packing standing diversity into local communities through competition, facilitation, and neutral ecological drift (Hubbell, 2001; Tilman, 2004; Bascompte & Jordano, 2007; Borer et al., 2014 ). Recent theoretical advances have further refined the causes and consequences of ecological drift (Hubbell, 2001; Rosindell & Phillimore, 2011; Rosindell et al., 2012), re-vitalized classical niche-based mechanisms such as niche partitioning (Tilman, 2004; Chesson, 2000), competition and predation (Borer et al., 2014), and put species interactions in a network theoretic context (Williams & Martinez, 2000; Brose et al., 2006; Berlow et al., 2009). The combined advances of ecological theory, with its broad predictive power, and insights into evolutionary mechanisms based on inference from contemporary patterns of species, genetic, or phylogenetic diversity (e.g., Kreft & Jetz 2007; Jetz & Fine 2012; Wiens & Donoghue 2004; Wiens et al 2011) have set the stage to address longstanding questions of how evolutionary history can drive common patterns in contemporary ecology (Ricklefs, 1987). Here, we propose an integrative framework to study evolutionary community assembly and provide an initial test using arthropod lineages in the model archipelago of the Hawaiian Islands. Using published data, we estimate (1) the development of genetic discontinuity and the extent to which taxa across communities differ in the rates that populations change from panmixia to fully differentiated species. This is contextualized with (2) macroecological metrics of community structure, using predictions from statistical steady state and ecological network theory to examine changes over the chronosequence. 
+
+Hotspot oceanic archipelagos as model systems
+Hotspot oceanic island systems are opportune model systems for studying the interplay of local ecological mechanisms and large-scale, historical, and evolutionary drivers of biodiversity patterns. Such island systems are discrete in space and in time due to their sequential formation as the tectonic plate moves over a volcanic hotspot.  We hypothesize that the contributions of evolutionary and ecological assembly will vary according to geological age of the environment, taken as an indicator of the total age over which in situ diversification could occur.  Age-structured, hot-spot island archipelagoes thus have the potential to stratify the eco-evolutionary process of community assembly. 
+For example, younger communities by necessity originate mostly from initial immigration from the mainland and neighboring islands, and thus may be dominated by ecological mechanisms operating on a source pool whose evolution is removed from the local setting. Conversely, older islands could allow observation of the combined interaction and feedback of the diversification of the source pool and local ecological dynamics.  The temporal stratification within such archipelagoes hence provides an opportunity to disentangle these interacting processes. Moreover, because dispersal, and hence connectivity between sites differs between taxa, the relative role of evolutionary and ecological assembly will differ between taxa. While many archipelagos around the world share these biotic and geologic properties, the Hawaiian archipelago provides a particularly useful system for study because its geological chronology (Price & Clague, 2002) and patterns of biodiversity are well characterized (Wagner & Funk, 1995).  
+
+Development of genetic discontinuity. 
+As species fracture into new populations that may eventually diversify to form new species, they form genetic discontinuities while experiencing periods of isolation and reconnectance through migration. Understanding how different types of taxa, such as taxa in different trophic positions, differ in the rate and pattern of departure from genetic panmixia is fundamental to understanding the dynamics of species formation. Ecological approaches tend to treat species as static units, while evolutionary approaches tend to treat them as highly dynamic. In order to make progress towards an approach that integrates ecology and evolution in the assembly of communities, it is necessary to incorporate the dynamic nature of species into an ecological framework.   
+
+Macroecological metrics 
+While we expect the mechanisms underlying the generation and maintenance of biodiversity to change across chronological sequences, studies to date have rarely moved beyond reporting basic patterns (Gillespie & Baldwin 2009). Theory provides a necessarily simplified view of biodiversity and deviations from theory can reveal which more biologically realistic mechanisms underlie observed patterns. The Maximum Entropy Theory of Ecology (METE; Harte 2011) provides a prediction for idealized ecological communities in statistical steady state. Statistical steady state describes the situation in which a system’s behavior is governed by a simple set of state variables and no further system-specific mechanisms are required (Harte 2011; Harte and Newman 2014). Thus METE’s predictions are similar to neutral theory (Hubbell 2001) but make fewer assumptions, allowing for the possibility that myriad ecological mechanisms to influence communities. However, METE assumes that these mechanisms have no statistical affect on the macroscopic biodiversity patterns of the system. Real world deviations from METE can provide insights into the processes driving ecology away from this statistical steady state and toward alternate system states (Harte 2011). We expect that different aged communities along the Hawaiian chronosequence will deviate differently from METE, because we hypothesize the processes of speciation, extinction, adaptation and colonization may themselves drive Hawaiian communities out of statistical steady state.
+METE has been shown to successfully predict various metrics of an ecological community (Harte 2011), including network metrics that describe trophic interactions between species (Williams; Harte 2011). Ecological network theory incorporates evolutionary concepts such as coevolution (Bascompte & Jordano, 2007; Donatti et al., 2011; Nuismer et al., 2013) and has clear ties with macroecological questions of the distribution of abundance and body size across species (Berlow et al., 2009; Williams, 2010; Harte, 2011). The distribution of linkages in ecological networks has been used to evaluate the signature of neutrality in the assembly of plant-animal interactions (Oikos frugivory paper).. Analysis of other network metrics such as modularity (the degree to which species interact in semi-autonomous modules) and nestedness (the degree of asymmetry in interaction between specialists and generalists) can further illuminate underlying eco-evolutionary processes driving patterns of species interactions (cite).
+	In this paper we use a novel integration of methods from population genetics to theoretical ecology using the chronosequence of the Hawaiian Archipelago to understand the nexus between ecological and evolutionary community assembly. We evaluate (1) the rate and pattern of genetic connectivity among populations of taxa from different trophic levels as they diversify from populations to form new species; (2) the processes  underlying the structure of species interaction networks given the backdrop of population divergence; and (3) the processes involved in diversification as species form and accumulate. We use previously published data on population genetic structure and species interactions as a proof of concept, with the goal of further developing this framework through ongoing work. 
+
+METHODS
+Hawaii as an eco-evolutionary study system
+The geological landscape of the Hawaiian Islands offers a matrix of volcanic substrates mapped in fine detail by chronological age and geochemical composition (Sherrod et al., 2007). On Hawaii Island in particular, independent gradients in elevation and precipitation interact within a matrix of substrate ages ranging from contemporary (active) to 500,000 years. Ongoing volcanic activity has created a dynamic mosaic of habitats with transitory to long-lasting fragmentation within landscapes. Isolation on scales of hundreds to thousands of meters and hundreds to thousands of years can be sufficient for genetic differentiation among some arthropod populations among habitats (Goodman et al., 2012; Eldon et al., 2013; Bennett & O’Grady, 2013), while insufficient to isolate others (Vandergast et al., 2004). On larger spatial and temporal scales, distinct volcanoes and islands, with their semi-independent histories of evolutionary community assembly from recent to ancient, comprise a space-for-time geological chronosequence spanning from present day up to 5 million years across Hawaii Island to Kauai.
+
+To investigate how ecological patterns change in response to varied evolutionary contexts we selected four focal sites across the chronosequence of substrate and island ages (two on Hawaii Island, one on Maui and one on Kauai) from which to compile interaction network data. Focal sites were selected to have similar forest composition (dominated by Metrosideros polymorpha: Myrtaceae), elevation (1100-1400m), and climate (mean annual precipitation 2000-3000 mm), while deliberately varying substrate age. These forested montane sites are well-studied and primarily composed of native plant and arthropod species .  The four sites span the chronosequence from 0.0002–5 million years (Kilauea and Kohala (Hawaii Island); Waikamoi (Maui), Kokee (Kauai); see Fig. [fig:map]). Existing genetic data from across Hawaii Island and Maui (including, but not limited to the focal sites), provide an estimate of how arthropod populations have accumulated genetic diversity and divergence within the dynamic landscape of the focal sites.
+Compilation and analysis of genetic data
+We first asked how molecular variation is partitioned within species within locations of known substrate age on Hawaii Island and Maui. We compiled published and new data sets for a diversity of native Hawaiian arthropod groups that represent a spectrum of trophic levels from several spiders species (COI and allozymes; Roderick et al., 2012; Croucher et al., 2012) to three orders of insects: detritivorous Laupala crickets (AFLPs; Mendelson et al., 2004); herbivorous Nesosydne planthoppers (COI and  microsatellites; Goodman et al., 2012; GenBank accession numbers XXX-XXX); herbivorous Trioza psyllids (COI, cytB; GenBank accession numbers XXX-XXX); and fungivorous Drosophila sproati: (COII; Eldon et al., 2013). In the case of previously unpublished molecular data, sequences for Nesosydne planthoppers were generated following protocols described in (Goodman et al., 2012) and sequences for Trioza psyllids were generated following protocols described in Percy (2003) with primers given in Simon et al. (1994) and Timmermans et al. (2010).
+We used analysis of molecular variance (AMOVA) to examine how genetic variation is partitioned at two scales of population structure: among sites within volcanoes and among volcanoes on both Hawaii Island and Maui Nui. All analyses of allozyme and DNA sequence data were performed in Arlequin v. 3.5 (Excoffier & Lischer, 2010) using the AMOVA procedure to compute F_ST, a  measure of genetic variance, or, where possible Φ_ST, an F_ST analog that incorporates genetic sequence information. The Laupala AFLP data were analyzed using TFPGA v. 1.3 (Miller, 1997), using the same hierarchical approach as described above. To provide a temporal framework for the population differentiation analysis we assembled divergence dating information from the literature for as many of the taxa as possible and additionally implemented a new divergence dating analysis for Tetragnatha spiders (see supplementary information).
+To explicitly evaluate the role of landscape age in allowing in situ genetic diversity and potential for divergence we analyzed how within site Fst varies with the geologic age of volcanoes on Hawaii Island and Maui Nui. For each volcano we calculated F_ST or Φ_ST (Excoffier and Schneider 2005) for each taxon between sites within volcanoes.
+Construction of plant-herbivore networks
+Bipartite networks describe the topology of ecological interactions between two guilds of organisms (e.g. herbivores and their plant hosts). Quantitative information on the relative importance of interaction links can be incorporated into network analyses (cite); however, currently available data restrict our analysis to binary networks, those that describe only the potential for interaction between any two species, but not the relative frequency of that interaction to each species.
+We compiled species lists of all endemic hemipteran herbivores (sap feeders) for each focal site from published species accounts (e.g. the Hawaiian Arthropod Checklist, Nishida (2002); see supplement for full list). Species accounts and other published sources were used to determine the presence, probable presence or probable absence of each Hemiptera species at each of our four focal sites. A documented presence was defined as a known specimen collected at the focal site; a probable presence was defined as a species whose abiotic tolerances and known geographic range (see supplement) overlap with a focal site but no known specimen exists confirming its presence. Probable absence was assumed when neither criteria for presence or probable presence are met. Two sets of species lists for each focal site were compiled: a conservative data set composed of only documented presence occurrences and a less conservative data set that also included probable presences.
+Host plants for each hemipteran species were determined from published species accounts. Host plant occurrence in the focal sites was determined using distribution models for 1158 species of Hawaiian plants (Price, 2012). Each focal site was spatially joined in a geographic information system (GIS) with all coincident plant distribution models that fell within its boundaries. Two sets of resulting focal site-specific networks were constructed: one using the conservative data set of hemipteran species presences and the other using the less conservative data set.  
+Analysis of plant-herbivore networks
+To test the hypothesis that communities differentially depart from statistical steady state during ecological succession versus potential eco-evolutionary feedback, we used METE (Williams, 2010; Harte 2011) to compute the statistical steady state for the hemipteran degree distribution (distribution of the number of plant hosts to each hemipteran species). We compared observed degree distributions to METE predictions by comparing the likelihood that the observed data came from the METE distribution to the sampling distribution of likelihood scores assuming METE is true. This comparison is identical in approach to a z-score test using a Monte Carlo simulation to estimate the sampling distribution of likelihoods. R scripts used for METE estimation and Monte Carlo methods will be made available in the supplement.
+To further investigate how in situ diversification leaves a potentially unique signature on network structure we analyzed the number of links assigned to each hemipteran species (the degree distribution) separately for island endemics (those species found on only one island and thus likely derived from in situ diversification) versus island cosmopolitans (those species found on multiple islands). To compare species’ degree distributions between endemics and cosmopolitans across sites of different ages we conducted a generalized linear model with binomial error, treating site identity as a categorical predictor. Binomial errors effectively account for network size due to the bounded support of the binomial distribution.
+To understand how other network properties change with ecosystem substrate age, we calculated two widely used descriptive network metrics across sites—nestedness, which describes the degree of asymmetry of species interactions connecting specialists and generalists (Bascompte et al., 2003; Ulrich et al., 2009), and modularity which describes the degree to which interactions are concentrated within subsets of species but not between subsets (Newman & Girvan, 2004; Olesen et al., 2007).
+We calculated nestedness using the NODF metric (Almeida-Neto et al., 2008) as implemented in R package vegan (Oksanen et al., 2013) and modularity using a variety of algorithms implemented in the R package igraph (Csardi & Nepusz, 2006). These metrics are not directly comparable across networks of different size and connectance (Ulrich et al., 2009), so for each metric in each network we calculate z-scores using a null model that randomizes network structure while maintaining certain aggregate network properties (Ulrich et al., 2009). These z-scores are calculated as the difference between the observed network metric minus the mean of the null model divided by the null model standard deviation, or (x_obs-¯x_sim)/sd_sim). Because z-scores can be highly sensitive to the choice of null model (Ulrich et al., 2009) we implemented both a probabilistic null model (Bascompte et al., 2003) and a null model that strictly constrains the degree distributions of plants and herbivores (Ulrich et al., 2009).
+
+RESULTS
+Population genetic inference of discontinuity among populations
+The analysis of molecular variance (AMOVA) revealed evidence of significant genetic structure from the smallest to the largest spatial scales examined, all within a very recent timeframe. For mitochondrial loci, the amount of significant molecular variation partitioned to among-sites, within volcanoes ranged from 0.037–0.92 and to the among volcanoes from 0–0.30. Corresponding variation at multilocus nuclear loci between-sites, within volcanoes ranged from 0.21–0.58 and among volcanoes, 0.04–0.34. Taxa in the lower trophic levels (herbivorous sap-feeding Hemiptera: planthoppers and psyllids) had as much or more molecular variation partitioned at the among-site, within volcano level than the among volcano level while the predatory spiders were less structured at localities within volcanoes (Table [tab:fst]). The analysis of genetic population structure across the chronosequence of localities revealed a similar pattern. The herbivores show high genetic population structure among localities on young volcanoes compared to localities on older volcanoes (Fig. [fig:volcanoFst]). By contrast, predatory spiders exhibited higher genetic population structure only on older volcanoes (e.g. Maui).
+The observed levels of genetic divergence have evolved rapidly. Within species genetic divergence in planthoppers has evolved in as little as 2,600 years (Goodman et al., 2012). For species from Hawaii Island for which phylogenetic data provide divergence times, estimates of dates of species origination range from 0.34–1.15 million years, with all additional within-species genetic divergence developed subsequently (Table [tab:fst]).
+
+Evolving network structure
+The Hemiptera species degree distribution  varied across the chronosequence with both the youngest and oldest sites deviating most from the statistical steady state maximum entropy predictions (Fig. [fig:degree]). In the middle aged  site of Kohala, minor deviations from maximum entropy are no different than expected by chance indicating the Kohala Hemiptera assemblage matches the predictions of maximum entropy.
+The generalized linear model revealed that there are also significant differences between the degree distributions of island endemics (those species found on only one island) versus island cosmopolitans (those species found on multiple islands) (Fig. [fig:degree]). Endemics show significantly lower degree distributions overall (i.e., more specialization) compared to more generalist cosmopolitan species. Endemics become significantly more generalist on the middle aged Maui site; however this pattern disappears when analyzing links to plant genera instead of species. The slightly younger Kohala shows increased generalization overall. When looking at the degree distribution defined by trophic links to plant genera instead of plant species, the pattern of increased generalization holds for the Kohala but endemics on Maui no long show a difference in their degree distributions from other island endemics. This change in pattern indicates that increased generality of Maui endemics may be driven by increased intra-genus plant diversity on that island.
+Network nestedness decreased with age while modularity increased (Fig. [fig:netMet]). This trend is found in networks constructed from both more and less stringent geographic criteria (supplemental Fig [figSupp:netCons]). Choice of null model changed the magnitude of modularity and the sign of nestedness z-scores; however, the relative pattern of decreasing nestedness and increasing modularity remained across the different null models used to standardize network metrics (supplemental Fig. [figSupp:netMetComp]). The patterns are also robust to sampling intensity, as demonstrated by a rarefaction analysis (supplemental Fig. [figSupp:rfy]).
+
+DISCUSSION
+By combining novel data with that gathered from the primary literature and using a combination of analytical approaches that incorporate population genetics, bipartite networks and maximum entropy theory, our results present evidence for the timeline over which evolution begins to keep pace with ecology. The results showed that taxa in the lower trophic levels developed genetic discontinuities at much smaller spatial and temporal scales than those at higher trophic levels. At the same time, network nestedness decreased with age while modularity increased across our island chronosequence (Fig. [fig:netMet]), indicating that (x and y). Furthermore, the distributions of the number of links assigned to each insect species in the network showed the greatest deviation from maximum entropy predictions on the youngest and oldest sites, suggesting that (x and y). Moreover, endemics show more specialization compared to more generalist species, which indicates (x and y). Together, these analyses reveal patterns that allow us to generate hypotheses about the dynamics of ecological and evolutionary assembly over time. In this age structured and simplified model system we hypothesize that the contribution of evolutionary assembly and ecological assembly vary between taxa and between ages of lineages in communities. 
+
+Development of genetic discontinuity at different trophic levels 
+The analysis of available genetic data presented here indicates that divergence is occurring within the islands at small spatial scales and over short time periods (Table [tab:fst], Fig. [fig:volcanoFst]). Furthermore, the scale of population structure varies with trophic position, with the sap-feeding herbivores in this study showing structure at smaller scales compared to cricket detritivores and predatory spiders (Table [tab:fst], Fig [fig:volcanoFst]). Population structure within species allows for populations to take independent evolutionary trajectories, especially when aided by other evolutionary processes that may be acting differentially across each species’ range. A variety of factors have been implicated in the genetic divergence of populations and species in lineages described here, including combinations of genetic drift associated with geographic isolation (Percy, 2003; Gillespie, 2005; Mendelson & Shaw, 2005; O’Grady et al., 2011; Goodman et al., 2012), adaptation associated with ecological interactions of competition, predation, and mutualism (Gillespie, 2004; Blackledge & Gillespie, 2004; Roderick & Percy, 2008), and sexual signaling (Mendelson & Shaw, 2005; Percy & Kennedy, 2006; Magnacca et al., 2008; Goodman et al., in review).
+The sap-feeding Hemiptera group Nesosydne (Goodman et al., 2012) provide evidence that some period of geographic isolation preceded divergence of sexual signals (Goodman et al., in review). Shifts in plant host use are also involved in the process of diversification in this group (Roderick & Percy, 2008). In a similar radiation of leafhoppers, Nesophrosyne (Bennett & O’Grady, 2013), host plant specialization drove species radiations up until approximately 1 million years ago, when plant niches were mostly exhausted on Maui; following this period, speciation, largely on the Hawaii Island, shifted to geographic mechanisms of diversification. Our network analysis indicates that specialization and modularity begin to show pronounced signals in network data on Maui (Figs. [fig:netMet], [fig:degree]), in agreement with the Nesophrosyne results and indicating that an approximate age of 1 million years may be necessary for host plant specialization to become the dominant process in the sequence of diversification. Other taxa at lower trophic levels, such as the herbivorous Trioza psyllids, detritivorous Laupala crickets and fungivorous Drosophila, show similar signals of geographic isolation combined with ecological and sexual processes driving genetic divergence and diversification across sites as young as those on the Hawaii Island (Percy, 2003; Percy & Kennedy, 2006; Mendelson & Shaw, 2005; Magnacca et al., 2008; O’Grady et al., 2011).
+As a contrast, spiders, which are predatory, seem to require larger spatial and temporal scales to develop genetic discontinuities. This might be expected given the larger area requirement of predators compared to herbivores.  Most important in the context of community assembly is that endemic sap-feeding herbivores developed structure quickly (on the order of less than 0.1 million years; Table [tab:fst]), with predatory spiders showing local endemicity more slowly (Table [tab:fst]). Furthermore, among those lineages that show adaptive diversification, ecological differences appear early in the process of differentiation (Percy, 2003; Gillespie, 2004; Blackledge & Gillespie, 2004; Percy & Kennedy, 2006; Magnacca et al., 2008; O’Grady et al., 2011; Goodman et al., 2012).
+
+Macroecological metrics: Network structure and steady state
+Because Kilauea is such a young site, ecological assembly should be the dominant  process there. The results of network analysis support this hypothesis with Kilauea showing substantial nestedness and limited modularity (Fig. [fig:netMet]). Nestedness is likely to result if new species arriving by immigration have a high probability to eat or be eaten by the generalist species already present at the site (Bascompte et al., 2003). In this way we might expect Kilauea to also conform to the statistical steady state predication of maximum entropy. However, the observed deviations from maximum entropy at Kilauea are largely driven by a surplus of singleton links (Fig [fig:degree]). These in turn likely result from incomplete assembly, and thus lower species richness, of the plant and herbivore biotas. Future research needs to focus on the added observation that the genetic analysis indicates that discontinuities arise within species on very short timescales across taxa (table), timescales that in some taxa include the greater landscape of Kiluaea. Because of this, whether or not assembly is entirely driven by ecological processes should be considered.  Conversely, Kohala shows a statistically significant agreement with maximum entropy perhaps because the Kohalas, at intermediate age (150 ky), have experienced complete ecological succession but are still too young to be driven away from statistical steady state by specialization and rapid in situ diversification driven by host plant preference
+The older Maui and Kauai sites show strong deviations from expectations of maximum entropy theory (Fig. [fig:netMet]), which is consistent with our hypothesis that the influence of evolutionary assembly on these biotas drives them away from statistical steady state. The application of maximum entropy to ecology does not currently take into account evolution (Harte, 2011). Indeed the use of maximum entropy in ecology is inspired by its application in physical systems whose change through time is simple and purely Markovian, potentially a far cry from the complex change through time undergone by biological systems as they change and adapt to their ecosystems (Eldredge, 1989; Arnold et al., 2001). Maui and Kauai show strong evidence of evolutionary assembly driven by specialization and diversification on host plants, particularly demonstrated by decreased nestedness and increased modularity (Fig. [fig:netMet]). Modularity is known to result from coevolution selectively driving the traits of interacting species towards convergence (Donatti et al., 2011; Nuismer et al., 2013).
+The analysis of island endemic and cosmopolitan (archipelago-wide) Hemiptera species sheds further light on the evolution of the networks they form. Endemics are always more specialized than cosmopolitans, further supporting the hypothesis that in situ diversification and evolutionary assembly favor coevolution. At the Kohala site , which showed the best fit to maximum entropy theory, endemic and cosmopolitan species alike show increased generalization (i.e. higher degree; Fig [fig:degree]), while at the youngest site Kilauea, specialist endemics are limited by low plant diversity and thus show more apparent specialization (Fig [fig:degree]). Conversely at the oldest site on Kauai, where plant diversity is not limiting (Kitayama & Mueller-Dombois, 1995), endemics again show decreased degree and thus genuine specialization (Fig. [fig:degree]). On Maui endemics show statistically significant increases in apparent generalization but this pattern disappears when analyzing the data at the resolution of plant genera, thus indicating that Maui endemic Hemiptera are no more generalized on plant genera but instead may benefit from the diversification of plant species within genera on Maui.
+
+Future Research
+These analyses indicate strong patterns of a dynamic assembly process leading to contrasting hypotheses depending on the timescale community under observation: 
+1.	In younger communities we hypothesize that
+a) During periods of ecological assembly (younger communities), communities strongly influenced by immigration will resemble random samples from regional source pools and thus metrics describing these communities will largely match expectations of statistical steady state after primary succession has completed (Harte, 2011). 
+b) The exception will be communities still undergoing primary succession (Harte, 2011), which will change rapidly through time and represent non-random samples of source pools. 
+c) We also predict that these communities will exhibit a nested network structure, assuming new species will eat or be eaten by the generalist species (Bascompte et al., 2003) already present in the community.
+2.	Alternative in older communities we hypothesize that
+a) During periods of evolutionary assembly (older communities), if evolutionary processes of niche exploration, adaptation and speciation happen fast enough to keep pace with immigration, ecological communities formed by such assembly could be driven into alternate evolutionary states that fail to meet the predictions of purely statistical theories that do not account for evolutionary dynamics (Harte, 2011). 
+b) We expect networks in such communities to exhibit higher levels of specialization and modularity (Bascompte & Jordano, 2007; Donatti et al., 2011; Nuismer et al., 2013).
+3. 	A hypothesis about how genetic metrics (discontinuities, gene flow, drift, pop size fluctuation) that provide details on how species are dynamic may influence ecological metrics such as network structure and macroecological variables, which consider species to be static units.
+In ongoing work we are obtaining more detailed ecological and evolutionary data sets in order to better address these hypotheses and understand the biodiversity dynamics underlying this system. 
+
+Ecological data: Assembly of species into communities
+Our results show that the island chronosequence can reveal fascinating and important insights into the process of community assembly. However, in order to understand the nature of the assembly process and the dynamic nature of the feedbacks involved, future work is focusing on conducting broad sampling of all macroscopic arthropod taxa at a number of sites across the age gradient, thus allowing assessment of changes in overall species composition and diversity across all players in the time-calibrated landscape.
+Such data will allow us to test how entire arthropod communities of different aged substrates deviate from statistical steady state as predicted by METE (Harte, 2011). For example, predators, whose assemblages are likely more dominated by immigration and ecological assembly (Fig. [fig:volcanoFst]) are hypothesized to never show strong deviations from METE  predictions whereas herbivores are hypothesized to show increasing deviation with age and potentially at youngest sites as well in agreement with the network results of this paper (Fig. [fig:degree]).
+
+Evolutionary data: Diversification within species
+The current study demonstrates, besides showing that taxa differ in the scale at which differentiation occurs, the importance of fragmentation of the landscape in facilitating differentiation.  The scale at which this fragmentation occurs is relative to the organism in question and plays a key role in dictating the effects of fragmentation. For some taxa fragmentation clearly allows genetic separation. For others, in particular those that are more connected, the fragmentation can provide a way of enhancing adaptive differentiation (Gillespie & Roderick, 2014). Future work is aimed at gathering genomic SNP data for focal taxa within this system that represent different trophic levels. We will use it to understand taxonomic differences in the rate of differentiation, to assess the roles of genetic fusion and fission, and to detail the relative rates of speciation and extinction across the island chronosequence. 
+For lineages characterized by extensive ecological diversification, recent work has highlighted the potential role of multiple colonizations and admixture in enhancing variability: while a break in gene flow is necessary for adaptive differentiation, hybridization and genetic admixture are key in the generation of adaptive variation and functional novelty (Seehausen & Schluter, 2004; Rius & Darling, 2014). Numerous studies demonstrate that the negative effects of genetic founder effects may be offset if different colonization events result in multiple genotypes within the introduced population (see Rius & Darling (2014) and citations therein). This highlights the potential role of admixture among successively introduced populations in providing the genetic variation to allow adaptive evolution. 
+
+
+\section*{Acknowledgement}
+We are indebted to many scientists and land managers in Hawaii that
+have provided access to the lands: Pat Bily (The Nature Conservancy of
+Hawaii), Melissa Dean, Christian Giardina, and Tabetha Block (Hawaii
+Experimental Tropical Forests), Betsy Gagne (Natural Area Reserve
+System), Lisa Hadway and Joey Mello (Department of Forestry and
+Wildlife Hilo), Cynthia King and Charmian Dang (Department of Land and
+Natural Resources), and Rhonda Loh (Hawaii Volcanoes National
+Park). We thank Lauren Ponsisio and Anna Hiller for thoughtful
+commentary. We are very grateful to Guida Santos and Richard Field for
+organizing an excellent symposium at the INTECOL 2013 conference
+in London. The research was supported by the National Science
+Foundation DEB 1241253.
+
+\bibliographystyle{geb}
+\bibliography{dimensions_geb}
+
+\clearpage
+
+\section*{Biosketch}
+
+The authors are part of a large team involved in understanding how
+biodiversity and complex ecosystems emerge from ecological and
+evolutionary processes. The project, funded by the National Science
+Foundation's ``Dimensions in Biodiversity'', focuses on the geological
+chronosequence provided by the Hawaiian Islands. Each of the
+co-authors are involved in the effort, although Rominger, working
+closely with Goodman, Lim, and Valdavinos, played the key role in
+tying the elements together for the current
+manuscript. Macroecological tools that have been employed for the
+study include those developed by Harte and Martinez. From the more
+empirical side, Gruner has long standing projects in the Hawaiian
+Islands on the ecological underpinnings of community
+diversity. Rominger, Lim and Fernandez bring a macroecological
+perspective to the project. From the evolutionary perspective, Shaw's
+research focuses on Laupala crickets; Ewing on nitidulid beetles,
+Goodman and Roderick on Hawaiian planthoppers; Percy on endemic
+psyllids; O'Grady and Price on Hawaiian Drosophila; and Cotoras with
+Gillespie on spiders.
+
+\section*{Tables}
+
+\begin{table}[!htb]
+  \centering
+  \includegraphics[width=0.9\textwidth]{tab_fst.pdf}
+  \caption{Proportion of genetic variation distributed at between
+    volcanoes and among sites within volcanoes.}
+  \label{tab:fst}
+\end{table}
+
+\clearpage
+
+\section*{Figure captions}
+
+
+{\bf Figure 1.} Substrate age map of the islands of Kauai, Maui and
+Hawaii Island. Colors correspond to substrate age from young (yellow)
+to old (blue). Focal sites are shown as black circles while sampling
+sites for genetic data are represented by gray circles.
+
+\vspace{2em}
+\noindent
+{\bf Figure 2.} Genetic population structure ($F_{ST}$) among sites
+within volcanoes with volcano age for insects and spiders. The
+plant-feeding groups, specifically the sap-feeding Hemiptera, show
+high genetic structure among sites on young volcanoes whereas
+detritivores (crickets), fungivores ({\it Drosophila}), and in
+particular predators (spiders), show little structure on young
+volcanoes. For spiders, substantial structure develops only later in
+the chronosequence, e.g., on Maui at approximately 1 million
+years. Number refer to different species: 1. {\it Nesosydne
+  chambersi}, 2. {\it Nesosydne raillardiae}, 3. {\it Nesosydne
+  bridwelli}, 4. {\it Trioza HB}, 5. {\it Trioza HC}, 6. {\it
+  Drosophila sproati}, 7. {\it Laupala cerasina}, 8. {\it Tetragnatha
+  anuenue}, 9. {\it Tetragnatha brevignatha}, 10. {\it Tetragnatha
+  quasimodo}, 11. {\it Theridion grallator}.
+
+\vspace{2em}
+\noindent
+{\bf Figure 3.} Trends in network metric nestedness and modularity
+through time. Nestedness decreases while modularity increases. Error
+bars come from a null model simulation. While the sign of the z-score
+depends on null model and method of calculating modules (see
+supplemental figure) the overall trend is robust. Some level of
+nestedness is likely a statistical property of these networks, however
+it could also be driven by stabilizing ecological
+mechanisms. Modularity is thought to be a sign of coevolution driving
+convergence in traits of plants and herbivores. Note the very
+interesting peaks on Maui where adaptive diversification may be at its
+maximum.
+
+\vspace{2em}
+\noindent
+{\bf Figure 4.} Patterns in degree distributions across sites and
+different biogeographic classifications of taxa. Top panels show that
+networks deviate most from MaxEnt on youngest and oldest sites. Inset
+figures show the distribution of simulated mean squared errors; if the
+red line falls within the gray region (95\% confidence interval) the
+data conform to maximum entropy; thus the observed minor deviation on
+Kohala is not different than expected by chance. Kohala shows minimal
+modularity, and maximal connectance. The bottom panel shows the number
+of links for island endemics versus island cosmopolitans. Endemics
+show lower linkage overall, but significantly increase on the middle
+aged site Maui (highlighted with dotted box). Kohala shows increased
+linkage overall (highlighted with solid box). When looking at links to
+plant genera this pattern holds except that endemics on Maui no long
+show a difference in generality, indicating that the pattern is driven
+in part by plant diversity.
+
+\clearpage
+
+\section*{Figures}
+
+\begin{figure}[!htb]
+  \centering
+  \includegraphics[scale=0.7]{fig_map.pdf} 
+  \caption{Substrate age map of the islands of Kauai, Maui and Hawaii
+    Island. Colors correspond to substrate age from young (yellow) to
+    old (blue). Focal sites are shown as black circles while sampling
+    sites for genetic data are represented by gray circles.}
+  \label{fig:map}
+\end{figure}
+
+\begin{figure}[!hp]
+  \centering
+  \includegraphics[scale=0.7]{fig_volcanoFst.pdf}
+  \caption{Genetic population structure ($F_{ST}$) among sites within
+    volcanoes with volcano age for insects and spiders. The
+    plant-feeding groups, specifically the sap-feeding Hemiptera, show
+    high genetic structure among sites on young volcanoes whereas
+    detritivores (crickets), fungivores ({\it Drosophila}), and in
+    particular predators (spiders), show little structure on young
+    volcanoes. For spiders, substantial structure develops only later
+    in the chronosequence, e.g., on Maui at approximately 1 million
+    years. Number refer to different species: 1. {\it Nesosydne
+      chambersi}, 2. {\it Nesosydne raillardiae}, 3. {\it Nesosydne
+      bridwelli}, 4. {\it Trioza HB}, 5. {\it Trioza HC}, 6. {\it
+      Drosophila sproati}, 7. {\it Laupala cerasina}, 8. {\it
+      Tetragnatha anuenue}, 9. {\it Tetragnatha brevignatha}, 10. {\it
+      Tetragnatha quasimodo}, 11. {\it Theridion grallator}.}
+  \label{fig:volcanoFst}
+\end{figure}
+
+\begin{figure}[!hp]
+  \centering
+  \includegraphics[scale=1]{fig_netMets.pdf} 
+  \caption{Trends in network metric nestedness and modularity through
+    time. Nestedness decreases while modularity increases. Error bars
+    come from a null model simulation. While the sign of the z-score
+    depends on null model and method of calculating modules (see
+    supplemental figure) the overall trend is robust. Some level of
+    nestedness is likely a statistical property of these networks,
+    however it could also be driven by stabilizing ecological
+    mechanisms. Modularity is thought to be a sign of coevolution
+    driving convergence in traits of plants and herbivores. Note the
+    very interesting peaks on Maui where adaptive diversification may
+    be at its maximum.}
+  \label{fig:netMet}
+\end{figure}
+
+
+\begin{figure}[!hp]
+  \centering
+  \includegraphics[scale=0.8]{fig_degree.pdf} 
+  \caption{Patterns in degree distributions across sites and different
+    biogeographic classifications of taxa. Top panels show that
+    networks deviate most from MaxEnt on youngest and oldest
+    sites. Inset figures show the distribution of simulated mean
+    squared errors; if the red line falls within the gray region (95\%
+    confidence interval) the data conform to maximum entropy; thus the
+    observed minor deviation on Kohala is not different than expected
+    by chance. Kohala shows minimal modularity, and maximal
+    connectance. The bottom panel shows the number of links for island
+    endemics versus island cosmopolitans. Endemics show lower linkage
+    overall, but significantly increase on the middle aged site Maui
+    (highlighted with dotted box). Kohala shows increased linkage
+    overall (highlighted with solid box). When looking at links to
+    plant genera this pattern holds except that endemics on Maui no
+    long show a difference in generality, indicating that the pattern
+    is driven in part by plant diversity.}
+  \label{fig:degree}
+\end{figure}
+
+
+\end{linenumbers}
+
+\end{document}
+

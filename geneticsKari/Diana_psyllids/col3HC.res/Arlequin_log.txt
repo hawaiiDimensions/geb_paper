@@ -1,0 +1,133 @@
+Log file path: C:/Users/General Lab/Desktop/Kari/29April2014/col3HC.res/Arlequin_log.txt
+Core Routine Directory: C:/Program Files/Arlequin/
+Random number generator initialized with lidum=-1067229
+Reading project profile section...
+done !
+Opening next project...
+C:/Users/General Lab/Desktop/Kari/29April2014/col3HC.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (13/05/14 at 14:29:43)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Project file, Line #21 : Keyword "CompDistMatrix" is now obsolete. Please set this parameter directly throug the interface
+
+	Project file, Line #24 : HaplotypeDefinition keyword declared before the beginning of the 'Data' section...
+Reading Haplotype List ...
+done ! (15 ms)
+	Reading Samples section ...
+	Reading HI_col3_K_KFP ... 
+	done ! (0 ms)
+
+	Reading HI_col3_K_Waim ... 
+	done ! (0 ms)
+
+	Reading HI_col3_ML_SCirRd ... 
+	done ! (0 ms)
+
+	Reading HI_col3_ML_Keauo ... 
+	done ! (0 ms)
+
+	Reading HI_col3_ML_KIki ... 
+	done ! (0 ms)
+
+	Reading HI_col3_ML_Puaulu ... 
+	done ! (0 ms)
+
+	Reading HI_col3_ML_KMC ... 
+	done ! (0 ms)
+
+	Reading HI_col3_MK_Humu ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (15 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 0 ms
+  done!
+  check selected settings...
+  done!
+		Beginning distance computations ...
+		done ! (0 ms)
+			Checking haplotype redundancy from a computed distance matrix:
+
+Population 'HI_col3_K_KFP' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_K_Waim' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+		Computing BMat ...
+		done ! (0 ms)
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_ML_SCirRd' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_ML_Keauo' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 15 ms
+
+Population 'HI_col3_ML_KIki' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_ML_Puaulu' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_ML_KMC' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+
+Population 'HI_col3_MK_Humu' : 
+	Computing standard diversity indices ...
+	done !
+	Computing molecular diversity indices ...
+	done ! (0 ms)
+done in 0 ms
+		Computing F statistics ...
+	Computing pairwise Fst's ... 
+
+0 ms to compute pairwise differences and test significance
+
+All FST distances have been computed and written to file
+
+	done ! (0 ms)
+		done ! (15 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (13/05/14 at 14:29:43))
+Total computing time for this run : 0h 0m 0s 796 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of C:/Users/General Lab/Desktop/Kari/29April2014/col3HC.arp

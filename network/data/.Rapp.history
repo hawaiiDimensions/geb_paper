@@ -1,0 +1,831 @@
+cophentic(silgrasstree)
+cophenetic(silgrasstree)
+class(cophenetic(silgrasstree))
+STAGE 1: CLEAN UP SPECIES LISTS (CAA 140313)#
+# Author: Junying Lim#
+# Last modified:  16th July 2013#
+#
+## DESCRIPTION#
+# Cleans up plant species lists#
+# Generates plant source pools#
+#
+## DIRECTORIES#
+main.dir <- '~/Desktop/Silwood_commphy_2'#
+input.dir <- file.path(main.dir, '0_raw')#
+output.dir <- file.path(main.dir, '1_sourcepool')#
+script.dir <- file.path(main.dir, '0_script')#
+supp.dir <- file.path(main.dir, '0_supp')#
+if(!file.exists(output.dir)){#
+    dir.create(output.dir)#
+}#
+if(!file.exists(supp.dir)){#
+    dir.create(supp.dir)#
+}#
+#
+## PACKAGES#
+library(picante); library(stringr)#
+#
+## GENERATING BRITISH SOURCE POOL AND PHYLOGENY#
+print("Generating British source pool...")#
+britishsp <- read.csv(file.path(input.dir, "T2data.txt"), header= TRUE)#
+#
+# Collapse subspecies into single species#
+temp <- str_split_fixed(levels(britishsp$Binomial), pattern = " ", n = 3)#
+levels(britishsp$Binomial) <- paste(temp[,1], temp[,2], sep = " ")#
+#
+# Excluding neophytes#
+plantatt <- read.csv(file.path(input.dir, "PLANTATT_19_Nov_08.csv"), header = TRUE)#
+temp <- str_split_fixed(plantatt$Taxon.name, n = 3, pattern = " ")#
+plantatt$binom <- paste(temp[,1], temp[,2], sep = " ")#
+native <- subset(plantatt, NS %in% c("N", "NE", "AR"))#
+#
+# Excluding gymnosperms#
+non_angio_ord <- c("Isoe", "Poly", "Lyco", "Hyme", "Mars", "Dick", "Equi", "Ophi", "Osmu", "Sela", "Pina" )#
+native_nogym <- subset(native, OrdA %in% setdiff(as.vector(unique(native$OrdA)), non_angio_ord))#
+#
+# Collapse species#
+native_nodup <- native_nogym[! duplicated(native_nogym$binom),] # 1443 species#
+nativelist <- levels(britishsp$Binomial)[levels(britishsp$Binomial) %in% unique(native_nodup$binom)]#
+native_final <- native_nodup[native_nodup$binom %in% nativelist,] # 1406 species
+britishtree <- read.tree(file.path(input.dir, "britishtree.tre"))
+input.dir <- file.path(main.dir, '1_sourcepool')
+britishtree <- read.tree(file.path(input.dir, "britishtree.tre"))
+plot(britishtree, show.tip.label= FALSE)
+hist(cophenetic(britishtree))
+str(britishtree)
+britishtree$node.label
+str(britishtree)
+silwoodlist <- read.csv(file.path(input.dir, "Silwood species list.csv"))
+input.dir <- file.path(main.dir, '0_raw')
+grassdata <- read.table(file.path(input.dir, "plantdata.txt"), header=TRUE)#
+names(grassdata) <- str_replace_all(names(grassdata), pattern = "_", replacement = " ")#
+grassdata <- grassdata[,-1] # 34 species#
+grassdata <- grassdata[, names(grassdata) %in% britishtree$tip.label] #Remove species with no phylogenetic representation; 31 species#
+grasssp <- names(grassdata)#
+#
+# Silwood source pool#
+print("Generating Silwood source pool...")#
+silwoodlist <- read.csv(file.path(input.dir, "Silwood species list.csv"))#
+silwoodsp <- unique(paste(silwoodlist$Genus, silwoodlist$Species))#
+silwoodsp <- silwoodsp[silwoodsp %in% britishtree$tip.label] # Remove species with no phylogenetic representation
+silwoodsp
+silwoodlist
+silwoodsp
+silwoodlist
+silwoodsp <- unique(paste(silwoodlist$Genus, silwoodlist$Species))
+silwoodsp
+[silwoodsp %in% plantatt$binom]
+silwoodsp %in% plantatt$binom
+plantatt$binom
+grassdata %in% plantatt$binom
+names(grassdata) <- str_replace_all(names(grassdata), pattern = "_", replacement = " ")#
+grassdata <- grassdata[,-1] # 34 species#
+grassdata <- grassdata[, names(grassdata) %in% britishtree$tip.label] #Remove species with no phylogenetic representation; 31 species#
+grasssp <- names(grassdata)
+grasssp
+grassp
+grasssp
+grassdata
+grassdata <- read.table(file.path(input.dir, "plantdata.txt"), header=TRUE)
+grassdata
+names(grassdata) <- str_replace_all(names(grassdata), pattern = "_", replacement = " ")
+grassdata
+grassdata <- grassdata[,-1] # 34 species
+grasssp <- names(grassdata)
+grasssp
+grasssp %in% plantatt$binom
+grassdata <- grassdata[, names(grassdata) %in% britishtree$tip.label] #Remove species with no phylogenetic representation; 31 species
+dim(grassdata)
+grasssp
+plantatt[plantatt$binom %in% grasssp,]
+plantatt[plantatt$binom %in% grasssp,]$.L
+plantatt[plantatt$binom %in% grasssp,]$E.L
+plantatt[plantatt$binom %in% grasssp,]
+test <- plantatt[plantatt$binom %in% grasssp,]
+str(test)
+test$L
+test$F
+test$R
+test$N
+test$S
+grasslandsp
+Collapse species#
+native_nodup <- native_nogym[! duplicated(native_nogym$binom),] # 1443 species (removing gynosperms)#
+nativelist <- levels(britishsp$Binomial)[levels(britishsp$Binomial) %in% unique(native_nodup$binom)]#
+native_final <- native_nodup[native_nodup$binom %in% nativelist,] # 1406 species (removing duplicates)#
+#
+## GRASSLAND SPECIES#
+H4 <- which(native_final$H.4 == 1)#
+H5 <- which(native_final$H.5 == 1)#
+H6 <- which(native_final$H.6 == 1)#
+H7 <- which(native_final$H.7 == 1)#
+H8 <- which(native_final$H.8 == 1)#
+H11 <- which(native_final$H.11 == 1)#
+grasslandsp <- native_final$binom[Reduce(union, list(H4, H5, H6, H7, H8, H11))]
+grasslandsp[grasslandsp %in% plantatt$binom,]
+y <- plantatt[grasslandsp %in% plantatt$binom,]
+y
+dim(y)
+grasslandsp %in% plantatt$binom
+y <- plantatt[plantatt$binom %in% grasslandsp,]
+dim(y)
+length(grasslandsp)
+native_final
+y <- native_final[native_final$binom %in% grasslandsp,]
+dim(y)
+y$L
+y$F
+y$N
+x$F
+test$F
+dim(test)
+mean(test$F)
+mean(y$F)
+grasslandsp
+grasssp %in% grasslandsp
+sum(grasssp %in% grasslandsp)
+sum(! grasssp %in% grasslandsp)
+grasssp[! grasssp %in% grasslandsp]
+grep("Aphanes", britishtree$tip.label)
+britishtree$tip.label[grep("Aphanes", britishtree$tip.label)]
+grep("Lolium", daphnetree$tip.labels)
+daphnetree <- read.tree(file.path(input.dir, "DaPhnE_01.tre"))
+grep("Lolium", daphnetree$tip.labels)
+daphnetree$tip.label <- str_replace_all(pattern = "_", replacement = " ", daphnetree$tip.label)
+grep("Lolium", daphnetree$tip.labels)
+grep("Lolium", daphnetree$tip.label)
+daphnetree$tip.label[grep("Lolium", daphnetree$tip.label)]
+sort(grasslandsp)
+sort(native_final)
+names(native_final)
+sort(native_final$binom)
+sort(plantatt$binom)
+plantatt[which(plantatt$binom == "Lolium multiflorum"),]
+native_nodup[which(native_nodup $binom == "Lolium multiflorum"),]
+native_nodup[which(native_nodup$binom == "Lolium multiflorum"),]
+asdf <- as.vector(unique(levels(britishsp)))
+sort(asdf)
+britishsp
+str(britishsp)
+unique(britishsp$Binomial)
+sort(unique(britishsp$Binomial))
+daphnetree$tip.label[grep("Lolium multiflorum", daphnetree$tip.label)]
+native_nodup
+sort(native_nodup$binom)
+sort(native_nogym$binom)
+sort(native $binom)
+sort(native$binom)
+sort(plantatt$binom)
+sort(native$binom)
+native$binom[grep("Lolium", native$binom)]
+native$binom[grep("Lolium", plantatt$binom)]
+plantatt$binom[grep("Lolium", plantatt$binom)]
+plantatt[grep("Lolium", plantatt$binom),]
+silgrasstree
+input.dir <- file.path(main.dir, '1_sourcepool')
+silgrasstree <- read.tree(file.path(input.dir, "silgrasstree.tre"))
+silgrasstree$tip.label[grep("Lolium", silgrasstree$tip.label)]
+silgrasstree$tip.label
+sort(silgrasstree$tip.label)
+PART 2A: PLANT COMMUNITY ANALYSES#
+# Author: Junying Lim#
+# Last modified: 16th July 2013#
+#
+## DESCRIPTION#
+# Calculates phylogenetic dispersion of plant communities across source pools#
+#
+## DIRECTORIES#
+main.dir <- '~/Desktop/Silwood_commphy_2'#
+input.dir <- file.path(main.dir, '1_sourcepool')#
+raw.dir <- file.path(main.dir, '0_raw')#
+output.dir <- file.path(main.dir, '2_analyses')#
+if(!file.exists(output.dir)){#
+  dir.create(output.dir)#
+}#
+#
+## PACKAGES#
+library(picante); library(caper); library(stringr)#
+#
+## INPUT COMMUNITY DATA#
+print("Loading plant community data...")#
+plantdata <- read.table(file.path(raw.dir, "plantdata.txt"), header=TRUE)#
+plantdata <- plantdata[,-1]#
+## INPUT PLANT PHYLOGENIES AND CLEAN UP DATA#
+print("Loading source pool phylogenies...")#
+britishtree <- read.tree(file.path(input.dir, "britishtree.tre"))#
+regionaltree <- read.tree(file.path(input.dir, "regionaltree.tre"))#
+countytree <- read.tree(file.path(input.dir, "countytree.tre"))#
+silwoodtree<- read.tree(file.path(input.dir, "silwoodtree.tre"))#
+silgrasstree <- read.tree(file.path(input.dir, "silgrasstree.tre"))#
+colnames(plantdata)[! colnames(plantdata) %in% britishtree$tip.label] # 3 species
+grasslandtree <- read.tree(file.path(input.dir, "grasslandtree.tre"))
+setdiff(britishtree_grass$tip.label, grasslandtree$tip.label)
+setdiff(britishtree$tip.label, grasslandtree$tip.label)
+britishtree$tip.label
+grasslandtree$tip.label
+length(grasslandtree)
+str(grasslandtree)
+length(grasslandtree$tip.label)
+STAGE 1: CLEAN UP SPECIES LISTS (CAA 140313)#
+# Author: Junying Lim#
+# Last modified:  16th July 2013#
+#
+## DESCRIPTION#
+# Cleans up plant species lists#
+# Generates plant source pools#
+#
+## DIRECTORIES#
+main.dir <- '~/Desktop/Silwood_commphy_2'#
+input.dir <- file.path(main.dir, '0_raw')#
+output.dir <- file.path(main.dir, '1_sourcepool')#
+script.dir <- file.path(main.dir, '0_script')#
+supp.dir <- file.path(main.dir, '0_supp')#
+if(!file.exists(output.dir)){#
+    dir.create(output.dir)#
+}#
+if(!file.exists(supp.dir)){#
+    dir.create(supp.dir)#
+}#
+#
+## PACKAGES#
+library(picante); library(stringr)#
+#
+## GENERATING BRITISH SOURCE POOL AND PHYLOGENY#
+print("Generating British source pool...")#
+britishsp <- read.csv(file.path(input.dir, "T2data.txt"), header= TRUE)#
+#
+# Collapse subspecies into single species#
+temp <- str_split_fixed(levels(britishsp$Binomial), pattern = " ", n = 3)#
+levels(britishsp$Binomial) <- paste(temp[,1], temp[,2], sep = " ")#
+#
+# Excluding neophytes#
+plantatt <- read.csv(file.path(input.dir, "PLANTATT_19_Nov_08.csv"), header = TRUE)#
+temp <- str_split_fixed(plantatt$Taxon.name, n = 3, pattern = " ")#
+plantatt$binom <- paste(temp[,1], temp[,2], sep = " ")#
+native <- subset(plantatt, NS %in% c("N", "NE", "AR"))#
+#
+# Excluding gymnosperms#
+non_angio_ord <- c("Isoe", "Poly", "Lyco", "Hyme", "Mars", "Dick", "Equi", "Ophi", "Osmu", "Sela", "Pina" )#
+native_nogym <- subset(native, OrdA %in% setdiff(as.vector(unique(native$OrdA)), non_angio_ord)) #(removing gynosperms)#
+#
+# Collapse species#
+native_nodup <- native_nogym[! duplicated(native_nogym$binom),] # 1443 species (Removing duplicates)#
+nativelist <- levels(britishsp$Binomial)[levels(britishsp$Binomial) %in% unique(native_nodup$binom)]#
+native_final <- native_nodup[native_nodup$binom %in% nativelist,] # 1406 species (removing duplicates)#
+#
+## GRASSLAND SPECIES#
+H4 <- which(native_final$H.4 == 1)#
+H5 <- which(native_final$H.5 == 1)#
+H6 <- which(native_final$H.6 == 1)#
+H7 <- which(native_final$H.7 == 1)#
+H8 <- which(native_final$H.8 == 1)#
+H11 <- which(native_final$H.11 == 1)#
+grasslandsp <- native_final$binom[Reduce(union, list(H4, H5, H6, H7, H8, H11))]#
+#
+## INPUT PHYLOGENY#
+print("Loading plant phylogeny...")#
+daphnetree <- read.tree(file.path(input.dir, "DaPhnE_01.tre"))#
+daphnetree$tip.label <- str_replace_all(pattern = "_", replacement = " ", daphnetree$tip.label)#
+#
+# Pruning Durka phylogeny (2012)#
+tip <- daphnetree$tip.label[! daphnetree$tip.label %in% nativelist] # Find unmatched taxa#
+britishtree <- drop.tip(phy = daphnetree, tip = tip) # 1338 species#
+#
+# Grassland species tree#
+tip <- daphnetree$tip.label[! daphnetree$tip.label %in% grasslandsp] # Find unmatched taxa#
+grasslandtree <- drop.tip(phy = daphnetree, tip = tip) # 365 species#
+#
+## GENERATING SOURCE POOL SPECIES LISTS#
+# Silwood grassland#
+grassdata <- read.table(file.path(input.dir, "plantdata.txt"), header=TRUE)#
+names(grassdata) <- str_replace_all(names(grassdata), pattern = "_", replacement = " ")#
+grassdata <- grassdata[,-1] # 34 species#
+grassdata <- grassdata[, names(grassdata) %in% britishtree$tip.label] #Remove species with no phylogenetic representation; 31 species#
+grasssp <- names(grassdata)#
+#
+# Silwood source pool#
+print("Generating Silwood source pool...")#
+silwoodlist <- read.csv(file.path(input.dir, "Silwood species list.csv"))#
+silwoodsp <- unique(paste(silwoodlist$Genus, silwoodlist$Species))#
+silwoodsp <- silwoodsp[silwoodsp %in% britishtree$tip.label] # Remove species with no phylogenetic representation#
+#
+# Regional source pool#
+print("Generating regional source pool...")#
+gridcells <- read.table(file.path(input.dir, "gridcells.txt"), header = FALSE)#
+gridcells <- as.vector(gridcells$V1)#
+regionsp <- britishsp[britishsp$Records %in% gridcells,]#
+regionsp <- union(regionsp$Binomial, silwoodsp)#
+#
+# County source pool#
+print("Generating county source pool...")#
+smallgridcells <- c("SU96", "SU97", "SU86", "SU87")#
+countysp <- britishsp[britishsp$Records %in% smallgridcells,]#
+countysp <- union(countysp$Binomial, silwoodsp)#
+#
+## PRUNING PHYLOGENIES#
+# NOTE: County and regional are exactly nested because they come from the same dataset, but will also have to incorporate species from grassland and silwood lists (assuming they are not in the dataset because of incomplete sampling)#
+regionaltree <- drop.tip(phy = britishtree, tip = setdiff(britishtree$tip.label, regionsp))#
+countytree <- drop.tip(phy = britishtree, tip = setdiff(britishtree$tip.label, countysp))#
+silwoodtree <- drop.tip(phy = britishtree, tip = setdiff(britishtree$tip.label, silwoodsp))#
+silgrasstree <- drop.tip(phy = britishtree, tip = setdiff(britishtree$tip.label, grasssp))#
+#
+## EXPORTING#
+print("Exporting trees into output folder...")#
+write.tree(britishtree, file.path(output.dir, "britishtree.tre"))#
+write.tree(regionaltree, file.path(output.dir, "regionaltree.tre"))#
+write.tree(countytree, file.path(output.dir, "countytree.tre"))#
+write.tree(silwoodtree, file.path(output.dir, "silwoodtree.tre"))#
+write.tree(silgrasstree, file.path(output.dir, "silgrasstree.tre"))#
+write.tree(grasslandtree, file.path(output.dir, "grasslandtree.tre"))#
+#
+## SUPPLEMENTARY MATERIAL#
+supp_mat <- data.frame(Taxon = britishtree$tip.label)#
+supp_mat$british_source_pool <- "yes"#
+supp_mat$regional_source_pool <- "no"#
+supp_mat$county_source_pool <- "no"#
+supp_mat$silwood_source_pool <- "no"#
+supp_mat$grass_source_pool <- "no"#
+#
+supp_mat$regional_source_pool[britishtree$tip.label %in% regionaltree$tip.label] <- "yes"#
+supp_mat$county_source_pool[britishtree$tip.label %in% countytree$tip.label] <- "yes"#
+supp_mat$silwood_source_pool[britishtree$tip.label %in% silwoodtree$tip.label] <- "yes"#
+supp_mat$grass_source_pool[britishtree$tip.label %in% silgrasstree$tip.label] <- "yes"#
+#
+write.csv(supp_mat, file.path(supp.dir, "source_pool.csv"))
+library(vegan)
+data(BCI)
+BCI
+head(BCI)
+str(BCI)
+class(BCI)
+x <- data.frame(A = c(0.2, 0.1), B = c(0.2, 0.1), C = c(0.2, 0.2), D = c(0.2, 0.3), E = c(0.2, 0.3))
+diversity(x)
+x <- data.frame(A = c(0.2, 0.1, 20), B = c(0.2, 0.1, 20), C = c(0.2, 0.2, 20), D = c(0.2, 0.3, 20), E = c(0.2, 0.3, 20))
+diversity(x)
+x <- data.frame(A = c(0.2, 0.1, 0.1), B = c(0.2, 0.1, 0.1), C = c(0.2, 0.2, 0.1), D = c(0.2, 0.3, 0.1), E = c(0.2, 0.3, 0.6))
+diversity(x)
+3_analyses.R#
+# Author: Junying Lim (junyinglim@gmail.com)#
+# Last modified: 26th July 2013#
+#
+## DIRECTORIES#
+main.dir <- '~/Dropbox/Projects/2013/Final_Year_Project/Silwood_commphy_2'#
+results.dir <- file.path(main.dir, "2_analyses")#
+phylo.dir <- file.path(main.dir, "1_sourcepool")#
+output.dir <- file.path(main.dir, "3_results")#
+if(! file.exists(output.dir)){#
+	dir.create(output.dir)#
+}#
+source('~/Dropbox/Projects/EcoDataTools/EcoDataTools.R')#
+#
+## PACKAGES#
+library(lme4); library(picante); library(vioplot); library(vegan); library(caper)#
+#
+## INPUT PHYLOGENIES#
+grass.plant.tree <- read.tree(file.path(phylo.dir, "silgrasstree.tre"))#
+silwood.plant.tree <- read.tree(file.path(phylo.dir, "silwoodtree.tre"))#
+county.plant.tree <- read.tree(file.path(phylo.dir, "countytree.tre"))#
+region.plant.tree <- read.tree(file.path(phylo.dir, "regionaltree.tre"))#
+british.plant.tree <- read.tree(file.path(phylo.dir, "britishtree.tre"))#
+#
+## INPUT RESULTS#
+# Phylogenetic diversity#
+D.plant.small <- read.table(file.path(results.dir, "D_plant_small.txt"), header = TRUE)#
+D.plant.large <- read.table(file.path(results.dir, "D_plant_large.txt"), header = TRUE)#
+#
+D.plant.small_grass <- read.table(file.path(results.dir, "D_plant_small_grass.txt"), header = TRUE)#
+D.plant.large_grass <- read.table(file.path(results.dir, "D_plant_large_grass.txt"), header = TRUE)#
+#
+nri.plant.small <- read.table(file.path(results.dir, "nri_plant_small.txt"), header = TRUE)#
+nri.plant.large <- read.table(file.path(results.dir, "nri_plant_large.txt"), header = TRUE)#
+#
+nri.plant.small_grass <- read.table(file.path(results.dir, "nri_plant_small_grass.txt"), header = TRUE)#
+nri.plant.large_grass <- read.table(file.path(results.dir, "nri_plant_large_grass.txt"), header = TRUE)#
+#
+nti.plant.small <- read.table(file.path(results.dir, "nti_plant_small.txt"), header = TRUE)#
+nti.plant.large <- read.table(file.path(results.dir, "nti_plant_large.txt"), header = TRUE)#
+#
+nti.plant.small_grass <- read.table(file.path(results.dir, "nti_plant_small_grass.txt"), header = TRUE)#
+nti.plant.large_grass <- read.table(file.path(results.dir, "nti_plant_large_grass.txt"), header = TRUE)#
+#
+# Functional diversity#
+#FD.plant.small <- read.table(file.path(results.dir, "FD_plant_small.txt"), header = TRUE)#
+F.plant.small <- read.table(file.path(results.dir, "F_plant_small.txt"), header = TRUE)#
+L.plant.small <- read.table(file.path(results.dir, "L_plant_small.txt"), header = TRUE)#
+R.plant.small <- read.table(file.path(results.dir, "R_plant_small.txt"), header = TRUE)#
+N.plant.small <- read.table(file.path(results.dir, "N_plant_small.txt"), header = TRUE)#
+S.plant.small <- read.table(file.path(results.dir, "S_plant_small.txt"), header = TRUE)#
+#
+F.plant.small_grass <- read.table(file.path(results.dir, "F_plant_small_grass.txt"), header = TRUE)#
+L.plant.small_grass <- read.table(file.path(results.dir, "L_plant_small_grass.txt"), header = TRUE)#
+R.plant.small_grass <- read.table(file.path(results.dir, "R_plant_small_grass.txt"), header = TRUE)#
+N.plant.small_grass <- read.table(file.path(results.dir, "N_plant_small_grass.txt"), header = TRUE)#
+S.plant.small_grass <- read.table(file.path(results.dir, "S_plant_small_grass.txt"), header = TRUE)#
+#
+## CLEAN DATA#
+nri.plant.small$NRI <- nri.plant.small$mpd.obs.z * -1#
+nri.plant.large$NRI <- nri.plant.large$mpd.obs.z * -1#
+nti.plant.small$NTI <- nti.plant.small$mntd.obs.z * -1#
+nti.plant.large$NTI <- nti.plant.large$mntd.obs.z * -1#
+#
+nri.plant.small_grass$NRI <- nri.plant.small_grass$mpd.obs.z * -1#
+nri.plant.large_grass$NRI <- nri.plant.large_grass$mpd.obs.z * -1#
+nti.plant.small_grass$NTI <- nti.plant.small_grass$mntd.obs.z * -1#
+nti.plant.large_grass$NTI <- nti.plant.large_grass$mntd.obs.z * -1#
+#
+#FD.plant.small$FD <- FD.plant.small$mpd.obs.z * -1#
+F.plant.small$FD <- F.plant.small$mpd.obs.z * -1#
+L.plant.small$FD <- L.plant.small$mpd.obs.z * -1#
+R.plant.small$FD <- R.plant.small$mpd.obs.z * -1#
+N.plant.small$FD <- N.plant.small$mpd.obs.z * -1#
+S.plant.small$FD <- S.plant.small$mpd.obs.z * -1#
+#
+F.plant.small_grass$FD <- F.plant.small_grass$mpd.obs.z * -1#
+L.plant.small_grass$FD <- L.plant.small_grass$mpd.obs.z * -1#
+R.plant.small_grass$FD <- R.plant.small_grass$mpd.obs.z * -1#
+N.plant.small_grass$FD <- N.plant.small_grass$mpd.obs.z * -1#
+S.plant.small_grass$FD <- S.plant.small_grass$mpd.obs.z * -1#
+#
+# Specify factor levels ordering#
+sourcepool.type <- c("grassland", "silwood", "10x10", "100x100", "UK")#
+D.plant.small$plot <- as.factor(D.plant.small$plot)#
+D.plant.small$site <- as.factor(D.plant.small$site)#
+D.plant.small$sourcepool <- factor(D.plant.small$sourcepool, sourcepool.type)#
+D.plant.large$site <- as.factor(D.plant.large$site)#
+D.plant.large$sourcepool <- factor(D.plant.large$sourcepool, sourcepool.type)#
+#
+D.plant.small_grass$plot <- as.factor(D.plant.small_grass$plot)#
+D.plant.small_grass$site <- as.factor(D.plant.small_grass$site)#
+D.plant.small_grass$sourcepool <- factor(D.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+D.plant.large_grass$site <- as.factor(D.plant.large_grass$site)#
+D.plant.large_grass$sourcepool <- factor(D.plant.large_grass$sourcepool, sourcepool.type[2:5])#
+#
+nri.plant.small$plot <- as.factor(nri.plant.small$plot)#
+nri.plant.small$site <- as.factor(nri.plant.small$site)#
+nri.plant.small$sourcepool <- factor(nri.plant.small$sourcepool, sourcepool.type)#
+nri.plant.large$site <- as.factor(nri.plant.large$site)#
+nri.plant.large$sourcepool <- factor(nri.plant.large$sourcepool, sourcepool.type)#
+#
+nri.plant.small_grass$plot <- as.factor(nri.plant.small_grass$plot)#
+nri.plant.small_grass$site <- as.factor(nri.plant.small_grass$site)#
+nri.plant.small_grass$sourcepool <- factor(nri.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+nri.plant.large_grass$site <- as.factor(nri.plant.large_grass$site)#
+nri.plant.large_grass$sourcepool <- factor(nri.plant.large_grass$sourcepool, sourcepool.type[2:5])#
+#
+nti.plant.small$plot <- as.factor(nti.plant.small$plot)#
+nti.plant.small$site <- as.factor(nti.plant.small$site)#
+nti.plant.small$sourcepool <- factor(nti.plant.small$sourcepool, sourcepool.type)#
+nti.plant.large$site <- as.factor(nti.plant.large$site)#
+nti.plant.large$sourcepool <- factor(nti.plant.large$sourcepool, sourcepool.type)#
+#
+nti.plant.small_grass$plot <- as.factor(nti.plant.small_grass$plot)#
+nti.plant.small_grass$site <- as.factor(nti.plant.small_grass$site)#
+nti.plant.small_grass$sourcepool <- factor(nti.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+nti.plant.large_grass$site <- as.factor(nti.plant.large_grass$site)#
+nti.plant.large_grass$sourcepool <- factor(nti.plant.large_grass$sourcepool, sourcepool.type[2:5])#
+F.plant.small$site <- as.factor(F.plant.small$site)#
+F.plant.small$sourcepool <- factor(F.plant.small$sourcepool, sourcepool.type)#
+R.plant.small$site <- as.factor(R.plant.small$site)#
+R.plant.small$sourcepool <- factor(R.plant.small$sourcepool, sourcepool.type)#
+L.plant.small$site <- as.factor(L.plant.small$site)#
+L.plant.small$sourcepool <- factor(L.plant.small$sourcepool, sourcepool.type)#
+N.plant.small$site <- as.factor(N.plant.small$site)#
+N.plant.small$sourcepool <- factor(N.plant.small$sourcepool, sourcepool.type)#
+#
+F.plant.small_grass$site <- as.factor(F.plant.small_grass$site)#
+F.plant.small_grass$sourcepool <- factor(F.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+R.plant.small_grass$site <- as.factor(R.plant.small_grass$site)#
+R.plant.small_grass$sourcepool <- factor(R.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+L.plant.small_grass$site <- as.factor(L.plant.small_grass$site)#
+L.plant.small_grass$sourcepool <- factor(L.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+N.plant.small_grass$site <- as.factor(N.plant.small_grass$site)#
+N.plant.small_grass$sourcepool <- factor(N.plant.small_grass$sourcepool, sourcepool.type[2:5])
+library(lme4)#
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|site/plot), data = D.plant.small, REML = FALSE)#
+mod.NRI <-lmer(NRI~sourcepool + (sourcepool|site/plot), data = nri.plant.small, REML = FALSE)#
+mod.NTI <-lmer(NTI~sourcepool + (sourcepool|site/plot), data = nti.plant.small, REML = FALSE)#
+summary(mod.D)#
+summary(mod.NRI)#
+summary(mod.NTI)
+mod.D <-lmer(DEstimate~sourcepool + (1|sourcepool/site/plot), data = D.plant.small, REML = FALSE)
+mod.D.null <- lmer(DEstimate~1 +(1|site/plot), data = D.plant.small, REML = FALSE)
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|site/plot), data = D.plant.small, REML = FALSE)
+mod.D
+summary(mod.D)
+mod.NRI <-lmer(NRI~sourcepool + (sourcepool|site/plot), data = nri.plant.small, REML = FALSE)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (sourcepool|site/plot), data = nri.plant.small, REML = TRUE)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = TRUE)
+summary(mod.NRI)
+mod.D.null <- lmer(DEstimate~1 +(1|sourcepool/site), data = D.plant.small, REML = FALSE)
+mod.D <-lmer(DEstimate~sourcepool + (1| sourcepool/site), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|/site), data = D.plant.small, REML = FALSE)
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|site), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+mod.NRI.null <- lmer(NRI~1 +(1|sourcepool/site), data = nri.plant.small, REML = FALSE)#
+mod.NTI.null <- lmer(NTI~1 +(1|sourcepool/site), data = nti.plant.small, REML = FALSE)
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|site), data = D.plant.small, REML = FALSE)#
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (sourcepool|site), data = nri.plant.small, REML = TRUE)#
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (sourcepool|site), data = nti.plant.small, REML = FALSE)#
+summary(mod.D)#
+summary(mod.NRI)#
+summary(mod.NTI)
+mod.D <-lmer(DEstimate~sourcepool + (sourcepool|site/plot), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (sourcepool|site/plot), data = nri.plant.small, REML = TRUE)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = TRUE)
+summary(mod.NRI)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = FALSE)
+summary(mod.D)
+mod.NRI <-lmer(mpd.obs.z~sourcepool -1  + (1|site/plot), data = nri.plant.small, REML = FALSE)
+summary(mod.NRI)
+mod.NRI <-lmer(mpd.obs.z~sourcepool  + (1|site/plot), data = nri.plant.small, REML = FALSE)
+summary(mod.NRI)
+summary(mod.D)
+mod.D <-lmer(DEstimate~sourcepool -1 + (1|site/plot), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (sourcepool|site/plot), data = nti.plant.small, REML = FALSE)
+summary(mod.NTI)
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (1|site/plot), data = nti.plant.small, REML = FALSE)
+summary(mod.NTI)
+mod.NTI <-lmer(mntd.obs.z~sourcepool -1  (1|site/plot), data = nti.plant.small, REML = FALSE)
+mod.NTI <-lmer(mntd.obs.z~sourcepool + -1  (1|site/plot), data = nti.plant.small, REML = FALSE)
+mod.NTI <-lmer(mntd.obs.z~sourcepool - 1  (1|site/plot), data = nti.plant.small, REML = FALSE)
+mod.NTI <-lmer(mntd.obs.z~sourcepool - 1 + (1|site/plot), data = nti.plant.small, REML = FALSE)
+summary(mod.NTI)
+mod.D_grass <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small_grass, REML = FALSE)
+summary(mod.D_grass)
+mod.D_grass <-lmer(DEstimate~sourcepool -1 + (1|site/plot), data = D.plant.small_grass, REML = FALSE)
+summary(mod.D_grass)
+mod.NRI_grass <-lmer(NRI~sourcepool + (sourcepool|site/plot), data = nri.plant.small_grass, REML = FALSE)
+mod.NRI_grass <-lmer(mpd.obs.z~sourcepool + (sourcepool|site/plot), data = nri.plant.small_grass, REML = FALSE)
+summary(mod.NTI_grass)
+mod.NRI_grass <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small_grass, REML = FALSE)
+summary(mod.NRI_grass)
+mod.NRI_grass <-lmer(mpd.obs.z~sourcepool -1 + (1|site/plot), data = nri.plant.small_grass, REML = FALSE)
+summary(mod.NRI_grass)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = rbind(D.plant.small, D.plant.small_grass), REML = FALSE)
+summary(mod.D)
+mod.D <-lmer(DEstimate~sourcepool -1 + (1|site/plot), data = rbind(D.plant.small, D.plant.small_grass), REML = FALSE)
+summary(mod.D)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)#
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = FALSE)#
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (1|site/plot), data = nti.plant.small, REML = FALSE)#
+summary(mod.D)#
+summary(mod.NRI)#
+summary(mod.NTI)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)#
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = FALSE)#
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (1|site/plot), data = nti.plant.small, REML = FALSE)#
+summary(mod.D)#
+summary(mod.NRI)#
+summary(mod.NTI)#
+#
+# Likelihood ratio test#
+mod.D.null <- lmer(DEstimate ~1 +(1|sourcepool/site), data = D.plant.small, REML = FALSE)#
+mod.NRI.null <- lmer(mpd.obs.z ~1 +(1|sourcepool/site), data = nri.plant.small, REML = FALSE)#
+mod.NTI.null <- lmer(mntd.obs.z ~1 +(1|sourcepool/site), data = nti.plant.small, REML = FALSE)#
+anova(mod.D, mod.D.null) #
+anova(mod.NRI, mod.NRI.null) #
+anova(mod.NTI, mod.NTI.null)
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)
+mod.D.null <- lmer(DEstimate ~ 1 +(1|sourcepool/site), data = D.plant.small, REML = FALSE)
+anova(mod.D, mod.D.null)
+D.plant.small
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)
+summary(mod.D)
+anova(mod.D, mod.D.null)
+anova(mod.NRI, mod.NRI.null)
+anova(mod.NTI, mod.NTI.null)
+library(lme4)#
+mod.D <-lmer(DEstimate~sourcepool + (1|site/plot), data = D.plant.small, REML = FALSE)#
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = FALSE)#
+mod.NTI <-lmer(mntd.obs.z~sourcepool + (1|site/plot), data = nti.plant.small, REML = FALSE)#
+summary(mod.D)#
+summary(mod.NRI)#
+summary(mod.NTI)#
+#
+# Likelihood ratio test#
+mod.D.null <- lmer(DEstimate ~ 1 +(1|site/plot), data = D.plant.small, REML = FALSE)#
+mod.NRI.null <- lmer(mpd.obs.z ~1 +(1|site/plot), data = nri.plant.small, REML = FALSE)#
+mod.NTI.null <- lmer(mntd.obs.z ~1 +(1|site/plot), data = nti.plant.small, REML = FALSE)#
+anova(mod.D, mod.D.null) #
+anova(mod.NRI, mod.NRI.null) #
+anova(mod.NTI, mod.NTI.null)
+mod.NRI <-lmer(mpd.obs.z~sourcepool + (1|site/plot), data = nri.plant.small, REML = FALSE)
+summary(mod.NRI)
+summary(lmer(mpd.obs.z~sourcepool -1 + (1|site/plot), data = nri.plant.small, REML = FALSE))
+summary(lmer(mpd.obs.z~sourcepool -1 + (1|site/plot), data = nri.plant.small_grass, REML = FALSE))
+lmer(NTI~sourcepool + (1|site/plot), data = nti.plant.small_grass, REML = FALSE)
+lmer(NTI~sourcepool -1 + (1|site/plot), data = nti.plant.small_grass, REML = FALSE)
+mod.F <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = F.plant.small, REML = FALSE)
+str(F.plant.small)
+head(F.plant.small)
+F.plant.small$plot <- as.factor(F.plant.small$plot)#
+F.plant.small$site <- as.factor(F.plant.small$site)#
+F.plant.small$sourcepool <- factor(F.plant.small$sourcepool, sourcepool.type)#
+#
+R.plant.small$plot <- as.factor(R.plant.small$plot)#
+R.plant.small$site <- as.factor(R.plant.small$site)#
+R.plant.small$sourcepool <- factor(R.plant.small$sourcepool, sourcepool.type)#
+#
+L.plant.small$plot <- as.factor(L.plant.small$plot)#
+L.plant.small$site <- as.factor(L.plant.small$site)#
+L.plant.small$sourcepool <- factor(L.plant.small$sourcepool, sourcepool.type)#
+#
+N.plant.small$plot <- as.factor(N.plant.small$plot)#
+N.plant.small$site <- as.factor(N.plant.small$site)#
+N.plant.small$sourcepool <- factor(N.plant.small$sourcepool, sourcepool.type)#
+#
+F.plant.small_grass$plot <- as.factor(F.plant.small_grass$plot)#
+F.plant.small_grass$site <- as.factor(F.plant.small_grass$site)#
+F.plant.small_grass$sourcepool <- factor(F.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+#
+R.plant.small_grass$plot <- as.factor(R.plant.small_grass$plot)#
+R.plant.small_grass$site <- as.factor(R.plant.small_grass$site)#
+R.plant.small_grass$sourcepool <- factor(R.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+#
+L.plant.small_grass$plot <- as.factor(L.plant.small_grass$plot)#
+L.plant.small_grass$site <- as.factor(L.plant.small_grass$site)#
+L.plant.small_grass$sourcepool <- factor(L.plant.small_grass$sourcepool, sourcepool.type[2:5])#
+#
+N.plant.small_grass$plot <- as.factor(N.plant.small_grass$plot)#
+N.plant.small_grass$site <- as.factor(N.plant.small_grass$site)#
+N.plant.small_grass$sourcepool <- factor(N.plant.small_grass$sourcepool, sourcepool.type[2:5])
+mod.F <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = F.plant.small, REML = FALSE)#
+mod.L <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = L.plant.small, REML = FALSE)#
+mod.R <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = R.plant.small, REML = FALSE)#
+mod.N <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = N.plant.small, REML = FALSE)
+summary(mod.F)#
+summary(mod.L)#
+summary(mod.R)#
+summary(mod.N)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = F.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool -1 + (1|site/plot), data = F.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = L.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool -1  + (1|site/plot), data = L.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool -1+ (1|site/plot), data = R.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = R.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool -1 + (1|site/plot), data = N.plant.small, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = N.plant.small, REML = FALSE)
+mod.F.grass <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = F.plant.small_grass, REML = FALSE)#
+mod.L.grass <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = L.plant.small_grass, REML = FALSE)#
+mod.R.grass <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = R.plant.small_grass, REML = FALSE)#
+mod.N.grass <- lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = N.plant.small_grass, REML = FALSE)#
+summary(mod.F.grass)#
+summary(mod.L.grass)#
+summary(mod.R.grass)#
+summary(mod.N.grass)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = F.plant.small_grass, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool - 1 + (1|site/plot), data = F.plant.small_grass, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool - 1 + (1|site/plot), data = L.plant.small_grass, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool + (1|site/plot), data = R.plant.small_grass, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool -1 + (1|site/plot), data = R.plant.small_grass, REML = FALSE)
+lmer(mpd.obs.z ~ sourcepool - 1 + (1|site/plot), data = N.plant.small_grass, REML = FALSE)
+mod.F.null <- lmer(mpd.obs.z ~1 +(1|site/plot), data = F.plant.small, REML = FALSE)#
+mod.L.null <- lmer(mpd.obs.z ~1 +(1|site/plot), data = L.plant.small, REML = FALSE)#
+mod.R.null <- lmer(mpd.obs.z ~1 +(1|site/plot), data = R.plant.small, REML = FALSE)#
+mod.N.null <- lmer(mpd.obs.z ~1 +(1|site/plot), data = N.plant.small, REML = FALSE)#
+anova(mod.F, mod.F.null) #
+anova(mod.L, mod.L.null) #
+anova(mod.R, mod.R.null)#
+anova(mod.N, mod.N.null)
+(30 + 30 + 34)/3
+ANALYSE NETWORKS#
+# setwd('~/Dropbox/hawaiiDimensions/geb_paper/network/data') #Andy's directory path #
+setwd("~/Dropbox/DimensionsStuff/geb_paper/network/data/") #Jun's directory path#
+source('~/Dropbox/DimensionsStuff/geb_paper/network/netFuns.R', chdir = TRUE) #Jun's directory path#
+# PACKAGES#
+library(vegan)#
+library(bipartite)#
+library(igraph)#
+#
+# IMPORT MATRICES#
+Hal_conmat <- read.table("Hal_conmat.csv", sep = ",", check.names = FALSE)#
+Hal_unconmat <- read.table("Hal_unconmat.csv", sep = ",", check.names = FALSE)#
+Kil_conmat <- read.table("Kil_conmat.csv", sep = ",", check.names = FALSE)#
+Kil_unconmat <- read.table("Kil_unconmat.csv", sep = ",", check.names = FALSE)#
+Koh_conmat <- read.table("Koh_conmat.csv", sep = ",", check.names = FALSE)#
+Koh_unconmat <- read.table("Koh_unconmat.csv", sep = ",", check.names = FALSE)#
+KoK_conmat <- read.table("KoK_conmat.csv", sep = ",", check.names = FALSE)#
+KoK_unconmat <- read.table("KoK_unconmat.csv", sep = ",", check.names = FALSE)#
+#
+sitesp_matrix_insect_uncon <- read.table("sitesp_matrix_insect_uncon.csv", sep = ",", check.names = FALSE)#
+sitesp_matrix_insect_con <- read.table("sitesp_matrix_insect_con.csv", sep = ",", check.names = FALSE)#
+#
+sitesp_matrix_plant_uncon <- read.table("sitesp_matrix_plant_uncon.csv", sep = ",", check.names = FALSE)#
+sitesp_matrix_plant_con <- read.table("sitesp_matrix_plant_con.csv", sep = ",", check.names = FALSE)#
+#
+# Remove all null interactions#
+Hal_unconmat <- Hal_unconmat[rowSums(Hal_unconmat) > 0, colSums(Hal_unconmat) > 0]#
+Kil_unconmat <- Kil_unconmat[rowSums(Kil_unconmat) > 0, colSums(Kil_unconmat) > 0]#
+KoK_unconmat <- KoK_unconmat[rowSums(KoK_unconmat) > 0, colSums(KoK_unconmat) > 0]#
+Koh_unconmat <- Koh_unconmat[rowSums(Koh_unconmat) > 0, colSums(Koh_unconmat) > 0]#
+#
+# GENERATE ENDEMIC VS. NON-ENDEMIC INSECT LISTS (NOTE: ISLAND ENDEMIC, NOT SITE)#
+temp <- rbind(sitesp_matrix_insect_uncon, sitesp_matrix_insect_uncon["Kil",] + sitesp_matrix_insect_uncon["Koh",]) #
+temp <- decostand(temp, method = "pa")#
+rownames(temp)[5] <- "Haw"#
+temp <- temp[-c(1,2),]#
+#
+endemic_uncon <- colnames(temp)[colSums(temp) == 1]#
+nonendemic_uncon <- colnames(temp)[colSums(temp) > 1]#
+#
+temp <- rbind(sitesp_matrix_insect_con, sitesp_matrix_insect_con[1,] + sitesp_matrix_insect_con[2,])#
+temp <- decostand(temp, method = "pa")#
+rownames(temp)[5] <- "Haw"#
+temp <- temp[-c(1,2),]#
+#
+endemic_con <- colnames(temp)[colSums(temp) == 1]#
+nonendemic_con <- colnames(temp)[colSums(temp) > 1]#
+#
+length(endemic_uncon)#
+length(nonendemic_uncon)#
+length(endemic_con)#
+length(nonendemic_con) # only 12 non endemics under conservative matrix :/#
+#
+# ENDEMIC VS. NONENDEMIC#
+# Degree = no. of links#
+# Normalized degree = no of links scale by no. of possible partners#
+Hal_results <- specieslevel(web = t(Hal_unconmat), level = "higher",#
+								index = c("degree", "normalised degree", "betweenness", "nestedrank", "closeness"))#
+Kil_results <- specieslevel(web = t(Kil_unconmat), level = "higher",#
+								index = c("degree", "normalised degree", "betweenness", "nestedrank", "closeness"))#
+Koh_results <- specieslevel(web = t(Koh_unconmat), level = "higher",#
+								index = c("degree", "normalised degree", "betweenness", "nestedrank", "closeness"))#
+KoK_results <- specieslevel(web = t(KoK_unconmat), level = "higher",#
+								index = c("degree", "normalised degree", "betweenness", "nestedrank", "closeness"))#
+# Eigenvector centrality#
+Hal_evcent <- evcent(graph = comm2adj(as.matrix(Hal_unconmat)))#
+Kil_evcent <- evcent(graph = comm2adj(as.matrix(Kil_unconmat)))#
+Koh_evcent <- evcent(graph = comm2adj(as.matrix(Koh_unconmat)))#
+KoK_evcent <- evcent(graph = comm2adj(as.matrix(KoK_unconmat)))#
+#
+# Combine results#
+Hal_results$evcent <- Hal_evcent$vector[1:dim(Hal_unconmat)[1]]#
+Kil_results$evcent <- Kil_evcent$vector[1:dim(Kil_unconmat)[1]]#
+Koh_results$evcent <- Koh_evcent$vector[1:dim(Koh_unconmat)[1]]#
+KoK_results$evcent <- KoK_evcent$vector[1:dim(KoK_unconmat)[1]]#
+#
+# Standardize evcent#
+standard <- function(x) #
+KoK_results$evcent <- KoK_results$evcent - mean(KoK_results$evcent) / sd(KoK_results$evcent)#
+# Parse endemic versus non_endemic#
+Hal_results$Taxon <- rownames(Hal_results)#
+Hal_results$Endemicity <- NA#
+temp <- match(Hal_results$Taxon, endemic_uncon)#
+Hal_results$Endemicity[which(is.na(temp) == FALSE)] <- "Endemic"#
+temp <- match(Hal_results$Taxon, nonendemic_uncon)#
+Hal_results$Endemicity[which(is.na(temp) == FALSE)] <- "Non-endemic"#
+#
+Kil_results$Taxon <- rownames(Kil_results)#
+Kil_results$Endemicity <- NA#
+temp <- match(Kil_results$Taxon, endemic_uncon)#
+Kil_results$Endemicity[which(is.na(temp) == FALSE)] <- "Endemic"#
+temp <- match(Kil_results$Taxon, nonendemic_uncon)#
+Kil_results$Endemicity[which(is.na(temp) == FALSE)] <- "Non-endemic"#
+#
+Koh_results$Taxon <- rownames(Koh_results)#
+Koh_results$Endemicity <- NA#
+temp <- match(Koh_results$Taxon, endemic_uncon)#
+Koh_results$Endemicity[which(is.na(temp) == FALSE)] <- "Endemic"#
+temp <- match(Koh_results$Taxon, nonendemic_uncon)#
+Koh_results$Endemicity[which(is.na(temp) == FALSE)] <- "Non-endemic"#
+#
+KoK_results$Taxon <- rownames(KoK_results)#
+KoK_results$Endemicity <- NA#
+temp <- match(KoK_results$Taxon, endemic_uncon)#
+KoK_results$Endemicity[which(is.na(temp) == FALSE)] <- "Endemic"#
+temp <- match(KoK_results$Taxon, nonendemic_uncon)#
+KoK_results$Endemicity[which(is.na(temp) == FALSE)] <- "Non-endemic"#
+#
+#wilcox.test(normalised.degree ~ Endemicity, data = Hal_results) # Non-endemics slightly more links than endemics (p = 0.038)#
+#wilcox.test(normalised.degree ~ Endemicity, data = Kil_results) # Non-endemics slightly more links than endemics (p = 0.009)#
+#wilcox.test(normalised.degree ~ Endemicity, data = Koh_results) # Non-endemics slightly more links than endemics (p = 0.038)#
+#wilcox.test(normalised.degree ~ Endemicity, data = KoK_results) # Non-endemics slightly more links than endemics (p = 0.038)#
+#
+Kil_results$site <- "Kil"#
+Koh_results$site <- "Koh"#
+Hal_results$site <- "Hal"#
+KoK_results$site <- "KoK"#
+all_results <- rbind(Kil_results, Koh_results, Hal_results, KoK_results)#
+all_results$site <- factor(all_results$site, levels = c("Kil", "Koh", "Hal", "KoK"))
+Distribution of normalised degree#
+par(mfrow = c(2,4))#
+hist(log(subset(Hal_results, Endemicity == "Endemic")$normalised.degree))#
+hist(log(subset(Hal_results, Endemicity == "Non-endemic")$normalised.degree))#
+hist(log(subset(Koh_results, Endemicity == "Endemic")$normalised.degree))#
+hist(log(subset(Koh_results, Endemicity == "Non-endemic")$normalised.degree))#
+hist(log(subset(Kil_results, Endemicity == "Endemic")$normalised.degree))#
+hist(log(subset(Kil_results, Endemicity == "Non-endemic")$normalised.degree))#
+hist(log(subset(KoK_results, Endemicity == "Endemic")$normalised.degree))#
+hist(log(subset(KoK_results, Endemicity == "Non-endemic")$normalised.degree))
+table(Hal_results$Endemicity)
+table(Kil_results$Endemicity)
+table(KoK_results$Endemicity)
+table(Koh_results$Endemicity)
+logit(0.91)
+Koh_results

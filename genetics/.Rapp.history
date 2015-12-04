@@ -1,0 +1,694 @@
+nrow(x$posterior[grep('sad',x$posterior[,1])])
+nrow(x$posterior[grep('sad',x$posterior[,1]),])
+x$posterior[grep('sad',x$posterior[,1]),]
+x$posterior[grep('sad',x$posterior[,1]), ]
+temp <- read.table('BI10Site13loci')
+temp <- read.table('BI10Site13loci')
+ncol(temp)-2
+temp <- read.table('BI10Site13loci')#
+bla <- read.structure('BI10Site13loci', n.loc=ncol(temp)-2, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+temp <- read.table('BI10Site13loci.str')
+bla <- read.structure('BI10Site13loci.str', n.loc=ncol(temp)-2, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+nlevels(temp[, 1])
+bla <- read.structure('BI10Site13loci.str', n.loc=ncol(temp)-2, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+x <- dapc(bla)
+x <- dapc(bla)
+bla
+bla@pop.names
+temp <- read.table('Tquas_wHI_structure.str')#
+bla <- read.structure('Tquas_wHI_structure.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+bla@pop.names
+temp <- read.table('BI10Site13loci.str')#
+bla <- read.structure('BI10Site13loci.str', n.loc=ncol(temp)-2, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+bla@pop
+?df2genind
+temp <- read.table('Tquas_wHI_structure.str')#
+bla <- read.structure('Tquas_wHI_structure.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+head(temp)
+df2genind(temp[, -(1:2)], ind.names=as.factor(temp[, 1]), pop=as.factor(temp[, 2]),#
+ploidy=2, type='codom')
+bla
+?dapc
+dapc(bla, n.pna=5, n.da=1)
+dapc(bla, n.pca=6, n.da=1)
+dapc1 <- dapc(bla, n.pca=6, n.da=1)
+bla2 <- df2genind(temp[, -(1:2)], ind.names=as.factor(temp[, 1]), pop=as.factor(temp[, 2]),#
+                  ploidy=2, type='codom')
+dapc1 <- dapc(bla, n.pca=6, n.da=1)
+dapc2 <- dapc(bla2, n.pca=6, n.da=1)
+bla2
+bla
+bla@tab
+bla2@tab
+?genind
+bla
+bla2
+bla@tab
+bla2@tab
+?df2genind
+df <- data.frame(locusA=c("11","11","12","32"),#
+locusB=c(NA,"34","55","15"),locusC=c("22","22","21","22"))#
+row.names(df) <- .genlab("genotype",4)#
+df
+as.factor(temp[, 1])
+temp[temp=='-9']
+temp[temp=='-9'] <- NA
+temp
+bla2 <- df2genind(temp[, -(1:2)], ind.names=as.factor(temp[, 1]), pop=as.factor(temp[, 2]),#
+                  ploidy=2, type='codom')
+bla2
+temp
+bla2 <- df2genind(temp[, -(1:2)], ind.names=as.factor(temp[, 1]), pop=as.factor(temp[, 2]),#
+                  ploidy=1, type='codom')
+bla2
+bla
+df
+df2genind(df, ploidy=2)
+df2genind(df, ploidy=2)@tab
+temp <- read.table('Tquas_wHI_structure.str')
+temp
+compoplot(bla)
+bla
+x
+compoplot(x)
+temp <- read.table('Tquas_wHI_structure.str')
+temp
+temp[1:40, ]
+write.table(temp[1:40, ], file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)
+compoplot(x)
+temp <- read.table('Tquas_wHI_structure2.str')#
+bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))#
+#
+x <- dapc(bla, n.pca=6, n.da=1)#
+compoplot(x)
+x <- dapc(bla, n.pca=9, n.da=1)
+compoplot(x)
+x <- dapc(bla, n.pca=6, n.da=1)
+compoplot(x)
+x <- dapc(bla, n.pca=7, n.da=1)
+x <- dapc(bla, n.pca=6, n.da=1)
+compoplot(x)
+temp <- read.table('Tquas_wHI_structur.str')#
+bla <- read.structure('Tquas_wHI_structure.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))#
+#
+x <- dapc(bla, n.pca=6, n.da=1)#
+compoplot(x)
+temp <- read.table('Tquas_wHI_structur.str')
+temp <- read.table('Tquas_wHI_structur.str')
+temp <- read.table('~/Dropbox/hawaiiDimensions/geb_paper/genetics/Tquas_wHI_structure.str')
+temp <- read.table('Tquas_wHI_structure.str')
+temp <- read.table('Tquas_wHI_structure.str')
+bla <- read.structure('Tquas_wHI_structure.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+x <- dapc(bla, n.pca=6, n.da=1)#
+compoplot(x)
+compoplot(x)
+temp <- read.table('Tquas_wHI_structure2.str')#
+bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                      onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))#
+#
+x <- dapc(bla, n.pca=6, n.da=1)#
+compoplot(x)
+summary(x)$assign.per.pop
+TEMP <- read.table('Tquas_wHI_structure.str')
+TEMP[, 1]
+grep('vol', TEMP[, 1])
+grep('sad', TEMP[, 1])
+grep('Hua', TEMP[, 1]), grep('vol', TEMP[, 1]), length(grep('sad', TEMP[, 1]))
+length(grep('sad', TEMP[, 1]))
+sample(14, grep('sad', TEMP[, 1]))
+keep <- grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14)
+keep <- c(grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14))
+keep
+keep
+keep
+c(grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14))
+c(grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14))
+c(grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14))
+c(grep('Hua', TEMP[, 1]), sample(grep('vol', TEMP[, 1]), 14), sample(grep('sad', TEMP[, 1]), 14))
+dapc.test <- replicate(2, {#
+	keep <- c(grep('Hua', TEMP[, 1]), #
+	          sample(grep('vol', TEMP[, 1]), 14), #
+	          sample(grep('sad', TEMP[, 1]), 14))#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop#
+})
+keep <- c(grep('Hua', TEMP[, 1]), #
+	          sample(grep('vol', TEMP[, 1]), 14), #
+	          sample(grep('sad', TEMP[, 1]), 14))
+temp <- TEMP[keep, ]
+write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)
+grep('vol', TEMP[, 1])
+TEMP[grep('vol', TEMP[, 1]), ]
+TEMP[grep('vol', TEMP[, 1]), 1]
+unique(TEMP[grep('vol', TEMP[, 1]), 1])
+unique(TEMP[grep('sad', TEMP[, 1]), 1])
+sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7)
+TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7)
+grepl('Hua', TEMP[, 1])
+TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)
+keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)
+keep
+temp <- TEMP[keep, ]
+temp
+write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)
+bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2,
+onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)
+write.table(TMEP, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=nlevels(temp[, 1]))
+write.table(TMEP, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+TEMP <- read.table('Tquas_wHI_structure.str')
+write.table(TMEP, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+bla
+bla@tab
+bla2 <- bal
+bla2 <- bla
+temp <- TEMP#[keep, ]#
+	write.table(TMEP, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+TEMP <- read.table('Tquas_wHI_structure.str')
+TEMP
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+TEMP <- read.table('Tquas_wHI_structure.str')
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+x <- dapc(bla, n.pca=5, n.da=1)
+summary(x)$assign.per.pop
+x <- dapc(bla, n.pca=4, n.da=1)
+summary(x)$assign.per.pop
+x <- dapc(bla, n.pca=5, n.da=1)
+summary(x)$assign.per.pop
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=1)#
+	summary(x)$assign.per.pop
+x <- dapc(bla, n.pca=5, n.da=1)
+summary(x)$assign.per.pop
+x <- dapc(bla)
+summary(x)$assign.per.pop
+?dapc
+x <- dapc(bla, n.pca=5, n.da=1)
+summary(x)$assign.per.pop
+dapc.test <- replicate(2, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=1)#
+	summary(x)$assign.per.pop#
+})
+dapc.test
+dapc.test <- replicate(50, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=1)#
+	summary(x)$assign.per.pop#
+})
+dapc.test
+plot(density(dapc.test[1, ]))
+plot(density(dapc.test[2, ]))
+plot(density(dapc.test[3, ]))
+plot(density(dapc.test[2, ]))
+plot(density(dapc.test[3, ]))
+plot(density(dapc.test[3, ]), xlim=0:1, ylim=c(0, 2.5))
+plot(density(dapc.test[2, ]), xlim=0:1, ylim=c(0, 2.5))#
+lines(density(dapc.test[3, ]), col='red')
+dapc.test <- replicate(500, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=1)#
+	summary(x)$assign.per.pop#
+})#
+#
+plot(density(dapc.test[2, ], to=0, from=1), xlim=0:1, ylim=c(0, 2.5))#
+lines(density(dapc.test[3, ], to=0, from=1), col='red')
+plot(density(dapc.test[2, ], from=0, to=1), xlim=0:1, ylim=c(0, 2.5))#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+plot(density(dapc.test[2, ], from=0, to=1), xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test
+plot(density(dapc.test[1, ], from=0, to=1), xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+plot(density(dapc.test[1, ], from=1, to=1), xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+plot(density(dapc.test[1, ], from=0.9, to=1), xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test[1, ]
+? density
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9)
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=1)#
+	summary(x)$assign.per.pop#
+})#
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=1)#
+	summary(x)$assign.per.pop#
+})#
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+})#
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=4, n.da=2)#
+	summary(x)$assign.per.pop#
+})#
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=4, n.da=2)#
+	summary(x)$assign.per.pop
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=4, n.da=2)#
+	summary(x)$assign.per.pop#
+})
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+summary(x)$assign.per.pop
+temp <- TEMP#[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=6, n.da=2)#
+	summary(x)$assign.per.pop
+scatter(x)
+x <- dapc(bla, n.pca=6, n.da=2, scale=TRUE)
+summary(x)$assign.per.pop
+scatter(x)
+?dapc
+x <- dapc(bla, pca.select='percVar', scale=TRUE)
+x <- dapc(bla, pca.select='percVar', perc.pca=0.75, scale=TRUE)
+summary(x)$assign.per.pop
+scatter(x)
+x <- dapc(bla, pca.select='percVar', perc.pca=0.95, scale=TRUE)
+scatter(x)
+x <- dapc(bla, pca.select='percVar', perc.pca=0.95, n.da=2, scale=TRUE)
+summary(x)$assign.per.pop
+scatter(x)
+x <- dapc(bla, n.pca=5, n.da=2, scale=TRUE)
+x <- dapc(bla, n.pca=5, n.da=2)
+scatter(x)
+summary(x)$assign.per.pop
+temp <- TEMP[-(1:4), ]#[keep, ]
+write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)
+bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2,
+onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))
+x <- dapc(bla, n.pca=5, n.da=2)
+summary(x)$assign.per.pop
+scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 7) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 7)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- !grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep
+TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5)
+!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)
+TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)
+TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)
+TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5)
+cbind(TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5), TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5))
+!grepl('Hua', TEMP[, 1])
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)
+keep
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 5) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 5)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 8) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 8)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+keep <- #!grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	scatter(x)
+dapc.test <- replicate(100, {#
+	keep <- grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	# scatter(x)#
+})
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))#
+lines(density(dapc.test[2, ], from=0, to=1), col='blue')#
+lines(density(dapc.test[3, ], from=0, to=1), col='red')
+dapc.test <- replicate(100, {#
+	keep <- #grepl('Hua', TEMP[, 1]) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('sad', TEMP[, 1]), 1]), 9) |#
+	        TEMP[, 1] %in% sample(unique(TEMP[grep('vol', TEMP[, 1]), 1]), 9)#
+	temp <- TEMP[keep, ]#
+	write.table(temp, file='Tquas_wHI_structure2.str', row.names=FALSE, col.names=FALSE)#
+	bla <- read.structure('Tquas_wHI_structure2.str', n.loc=9, col.lab=1, col.pop=2, #
+                          onerowperind=FALSE, ask=FALSE, n.ind=length(unique(temp[, 1])))#
+	x <- dapc(bla, n.pca=5, n.da=2)#
+	summary(x)$assign.per.pop#
+	# scatter(x)#
+})
+curve(dnorm(x, 1, 1/100), from=0.9, to=1, xlim=0:1, ylim=c(0, 2.75))
+lines(density(dapc.test[1, ], from=0, to=1), col='blue')
+lines(density(dapc.test[2, ], from=0, to=1), col='red')

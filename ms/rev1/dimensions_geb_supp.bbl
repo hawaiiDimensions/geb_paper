@@ -1,0 +1,68 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+
+\bibitem[{Bascompte \textit{et~al.}(2003)Bascompte, Jordano, Melian \&
+  Olesen}]{Bascompte2003}
+Bascompte, J., Jordano, P., Melian, C.J. \& Olesen, J.M. (2003) The nested
+  assembly of plant-animal mutualistic networks. \textit{Proc. Natl Acad. Sci.
+  USA}, \textbf{100}, 9383--9387.
+
+\bibitem[{Drummond \& Rambaut(2007)}]{beast}
+Drummond, A.J. \& Rambaut, A. (2007) Beast: Bayesian evolutionary analysis by
+  sampling trees. \textit{BMC evolutionary biology}, \textbf{7}, 214.
+
+\bibitem[{Gibson \textit{et~al.}(2011)Gibson, Knott, Eberlein \&
+  Memmott}]{Gibson2011}
+Gibson, R.H., Knott, B., Eberlein, T. \& Memmott, J. (2011) Sampling method
+  influences the structure of plant-pollinator networks. \textit{Oikos},
+  \textbf{120}, 822--831.
+
+\bibitem[{Gillespie(2004)}]{gillespie2004}
+Gillespie, R. (2004) Community assembly through adaptive radiation in hawaiian
+  spiders. \textit{Science}, \textbf{303}, 356--359.
+
+\bibitem[{Goodman \textit{et~al.}(2012)Goodman, Welter \&
+  Roderick}]{goodman2012}
+Goodman, K., Welter, S. \& Roderick, G. (2012) Genetic divergence is decoupled
+  from ecological diversification in the hawaiian nesosydne planthoppers.
+  \textit{Evolution}, \textbf{66}, 2798–2814.
+
+\bibitem[{Lanfear \textit{et~al.}(2012)Lanfear, Calcott, Ho \&
+  Guindon}]{partitionfinder}
+Lanfear, R., Calcott, B., Ho, S.Y. \& Guindon, S. (2012) Partitionfinder:
+  combined selection of partitioning schemes and substitution models for
+  phylogenetic analyses. \textit{Molecular Biology and Evolution}, \textbf{29},
+  1695--1701.
+
+\bibitem[{Newman \& Girvan(2004)}]{Newman2004}
+Newman, M. \& Girvan, M. (2004) Finding and evaluating community structure in
+  networks. \textit{Physical Review E}, \textbf{69}, 026113.
+
+\bibitem[{Nielsen \& Bascompte(2007)}]{Nielsen2007}
+Nielsen, A. \& Bascompte, J. (2007) Ecological networks, nestedness and
+  sampling effort. \textit{Journal of Ecology}, \textbf{95}, 1134--1141.
+
+\bibitem[{Olesen \textit{et~al.}(2007)Olesen, Bascompte, Dupont \&
+  Jordano}]{Olesen2007}
+Olesen, J., Bascompte, J., Dupont, Y. \& Jordano, P. (2007) The modularity of
+  pollination networks. \textit{Proc. Natl Acad. Sci. USA}, \textbf{104},
+  19891--19896.
+
+\bibitem[{Papadopoulou \textit{et~al.}(2010)Papadopoulou, Anastasiou \&
+  Vogler}]{papadopoulou2010}
+Papadopoulou, A., Anastasiou, I. \& Vogler, A.P. (2010) Revisiting the insect
+  mitochondrial molecular clock: the mid-aegean trench calibration.
+  \textit{Molecular Biology and Evolution}, \textbf{27}, 1659--1672.
+
+\bibitem[{Rivera-Hutinel \textit{et~al.}(2012)Rivera-Hutinel, Bustamante,
+  Mar{\'\i}n \& Medel}]{Rivera2012}
+Rivera-Hutinel, A., Bustamante, R., Mar{\'\i}n, V. \& Medel, R. (2012) Effects
+  of sampling completeness on the structure of plant-pollinator networks.
+  \textit{Ecology}, \textbf{93}, 1593--1603.
+
+\bibitem[{Ulrich \textit{et~al.}(2009)Ulrich, Almeida-Neto \&
+  Gotelli}]{Ulrich2009}
+Ulrich, W., Almeida-Neto, M. \& Gotelli, N.J. (2009) A consumer's guide to
+  nestedness analysis. \textit{Oikos}, \textbf{118}, 3--17.
+
+\end{thebibliography}

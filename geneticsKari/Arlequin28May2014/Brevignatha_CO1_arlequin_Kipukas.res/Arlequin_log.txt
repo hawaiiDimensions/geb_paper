@@ -1,0 +1,65 @@
+Log file path: S:/Dimensions arlequin files/Brevignatha_CO1_arlequin_Kipukas.res/Arlequin_log.txt
+Core Routine Directory: //psf/Shared PC folder/WinArl35/
+Random number generator initialized with lidum=-594438
+Reading project profile section...
+done !
+Opening next project...
+S:/Dimensions arlequin files/Brevignatha_CO1_arlequin_Kipukas.arp
+////////////////////////////////////////////////////////////////////
+RUN NUMBER 1 (28/05/14 at 07:37:02)
+////////////////////////////////////////////////////////////////////
+
+
+Reading Project: 
+Reading input file ...
+	Reading Samples section ...
+	Reading KIPUKA1 ... 
+	done ! (0 ms)
+
+	Reading KIPUKA2 ... 
+	done ! (0 ms)
+
+	Reading KIPUKA3 ... 
+	done ! (0 ms)
+
+	done reading Samples section! (0 ms)
+	Reading genetic structure ...
+	done reading genetic structure! (0 ms)
+done ! (0 ms)
+
+------------------------------------------------------------------------
+  Checking all selected options...
+		Building vectors of alleles...
+		done in 15 ms
+  done!
+  check selected settings...
+  done!
+		Beginning distance computations ...
+		done ! (0 ms)
+			Checking haplotype redundancy from a computed distance matrix:
+
+Population 'KIPUKA1' : 
+		Beginning distance computations ...
+		done ! (0 ms)
+done in 0 ms
+
+Population 'KIPUKA2' : 
+		Beginning distance computations ...
+		done ! (0 ms)
+done in 0 ms
+
+Population 'KIPUKA3' : 
+		Beginning distance computations ...
+		done ! (0 ms)
+done in 0 ms
+		Beginning distance computations ...
+		done ! (0 ms)
+		Computing F statistics ...
+		done ! (15 ms)
+
+////////////////////////////////////////////////////////////////////
+END OF RUN NUMBER 1 (28/05/14 at 07:37:02))
+Total computing time for this run : 0h 0m 0s 47 ms
+////////////////////////////////////////////////////////////////////
+
+Successful run of S:/Dimensions arlequin files/Brevignatha_CO1_arlequin_Kipukas.arp

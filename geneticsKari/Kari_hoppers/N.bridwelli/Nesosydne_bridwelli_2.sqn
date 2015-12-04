@@ -1,0 +1,4627 @@
+Seq-submit ::= {
+  sub {
+    contact {
+      contact {
+        name
+          name {
+            last "Goodman" ,
+            first "Kari" ,
+            initials "K.R." } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy and Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "USA" ,
+            street "130 Mulford Hall" ,
+            email "krgoodman@berkeley.edu" ,
+            fax "510-643-3058" ,
+            phone "510-913-2109" ,
+            postal-code "94720-3114" } } } ,
+    cit {
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "Rominger" ,
+                  first "Andrew" ,
+                  initials "A.J." } } ,
+            {
+              name
+                name {
+                  last "Goodman" ,
+                  first "Kari" ,
+                  initials "K.R." } } ,
+            {
+              name
+                name {
+                  last "Lim" ,
+                  first "Jun" ,
+                  initials "J.Y." } } } ,
+        affil
+          std {
+            affil "University of California at Berkeley" ,
+            div "Environmental Science, Policy and Management" ,
+            city "Berkeley" ,
+            sub "CA" ,
+            country "USA" ,
+            street "130 Mulford Hall" ,
+            postal-code "94720-3114" } } ,
+      date
+        std {
+          year 2015 ,
+          month 6 ,
+          day 5 } } ,
+    subtype new ,
+    tool "Sequin 13.70 - MAC 386 on OS 10.6" } ,
+  data
+    entrys {
+      set {
+        class pop-set ,
+        descr {
+          pub {
+            pub {
+              gen {
+                cit "Unpublished" ,
+                authors {
+                  names
+                    std {
+                      {
+                        name
+                          name {
+                            last "Rominger" ,
+                            first "Andrew" ,
+                            initials "A.J." } } ,
+                      {
+                        name
+                          name {
+                            last "Goodman" ,
+                            first "Kari" ,
+                            initials "K.R." } } ,
+                      {
+                        name
+                          name {
+                            last "Lim" ,
+                            first "Jun" ,
+                            initials "J.Y." } } } ,
+                  affil
+                    std {
+                      affil "University of California at Berkeley" ,
+                      div "Environmental Science, Policy and Management" ,
+                      city "Berkeley" ,
+                      sub "CA" ,
+                      country "USA" ,
+                      street "130 Mulford Hall" ,
+                      postal-code "94720-3114" } } ,
+                title "Community Assembly on Isolated Islands: Macroecology
+ Meets Evolution" } } } ,
+          user {
+            type
+              str "NcbiCleanup" ,
+            data {
+              {
+                label
+                  str "method" ,
+                data
+                  str "SequinCleanup" } ,
+              {
+                label
+                  str "version" ,
+                data
+                  int 7 } ,
+              {
+                label
+                  str "month" ,
+                data
+                  int 6 } ,
+              {
+                label
+                  str "day" ,
+                data
+                  int 5 } ,
+              {
+                label
+                  str "year" ,
+                data
+                  int 2015 } } } ,
+          create-date
+            std {
+              year 2015 ,
+              month 6 ,
+              day 5 } } ,
+        seq-set {
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AB" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10C13CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06AB_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AB" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AB_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVIVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AB_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AI" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06AI_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AI" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AI_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AI_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AJ" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40839AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06AJ_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AJ" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AJ_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTA
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AJ_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AK" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 673 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50C0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame one ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06AK_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 672 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AK" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AK_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 224 ,
+                  seq-data
+                    ncbieaa "IGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHAF
+IMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSGP
+SVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTSF
+FDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 223 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AK_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AN" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06AN_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AN" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06AN_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06AN_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BC" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06BC_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BC" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BC_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BC_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BE" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06BE_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BE" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BE_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BE_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BR" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06BR_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BR" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BR_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BR_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BS" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06BS_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BS" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06BS_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06BS_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CD" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CD_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CD" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CD_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CD_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CH" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40839AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CH_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CH" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CH_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTA
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CH_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CP" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CP_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CP" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CP_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CP_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CR" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CR_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CR" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CR_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CR_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CS" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CS_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CS" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CS_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CS_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CU" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06CU_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CU" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06CU_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06CU_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06D" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi4na '211111F821111114484284481114118144482122822222448
+844482111411842448488814488124482148811214818148418142822842211112844814841114
+414814811118142848418811112841821121111114444818888882818841111488888441824818
+188818118148141418411188118142822818118841828118122142118184814841111118148114
+482812141244222141184841448481428841214844844481812848221822848822441822841822
+812818841428441118811811118811141444444414211221111828818188488818824444411442
+818182444442122118818814444812811821488822111122822118211418844818112818111411
+118818118111842184441848412114112188181418884482188888118811142122844284148811
+882141124418811118828828818148822418811122841821118122811118411481114448122118
+18280'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06D_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06D" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06D_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTA
+FFDPTGGGDPILYQHLFWXF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06D_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DB" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi4na '211111F821111114484284481114118144482122822222448
+844482111411841448488814488124482148811214818148418142822842211112844814841114
+414814811118142848418811112841821121111114444818888882818841111488888441824818
+188818118148141418411188118142822818118841828118122142118184814841111118148114
+482812141244222141184841448481428841214844844481812848221822848822441822841822
+812818841428441118811811118811141444444414211221111828818188488818824444411442
+818182444442122118818814444812811821488822111122822118211418844818112818111411
+118818118111842184441848412114112188181418884482188888118811142122844284148811
+882141124418811118828828818148822418811122841821118122811118411481114448122118
+18280'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DB_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DB" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DB_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWXF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DB_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DC" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DC_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DC" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DC_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DC_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DE" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DE_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DE" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DE_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DE_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DN" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi4na '2111111821111114484284481114118144482122822222448
+8444821F1411842448488814488124482148811214818148418142822842211112844814841114
+414814811118142848418811112841821121111114444818888882818841111488888441824818
+188818118148141418411188118142822818118841828118122142118184814841111118148114
+482812141244222141184841448481428841214844844481812848221822848822441822841822
+812818841428441118811811118811141444444414211221111828818188488818824444411442
+818182444442122118818814444812811821488822111122822118211418844818112818111411
+118818118111842184441848412114112188181418884482188888118811142122844284148811
+882141124418811118828828818148822418811122841821118122811118411481114448122118
+18280'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DN_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DN" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DN_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTA
+FXDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DN_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DO" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DO_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DO" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DO_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DO_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DT" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi4na '2111111821111114484284481114F1814448212282FF2F448
+844482111411841448488814488124482148811214818148418142822842811112844814841114
+414414811118142848418811112841821121111114444818888882818841111488888441824818
+188818118148141418411188118142822818118841828118122142418184414841111118148114
+482812141244222141184841448481428441214844844481812848221822848822441822841222
+812818841428441118811811118811141444444414F11221111828818188488818824444411442
+818182444442122118818814444812811821488822111122822118211418844818112818111111
+118818118111842184441848412114112188181418884482188888118811142122844884148811
+882141124418811118828828218148822418811222841821118122811118411481114448122118
+18280'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DT_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DT" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DT_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWXLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTXXGDPXLYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DT_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DZ" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06DZ_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DZ" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06DZ_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06DZ_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EB" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06EB_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EB" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EB_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EB_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EC" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06EC_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EC" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EC_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EC_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06ED" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C88AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06ED_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06ED" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06ED_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06ED_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EL" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06EL_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EL" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EL_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EL_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EP" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40839AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06EP_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EP" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06EP_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTA
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06EP_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06ET" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06ET_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06ET" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06ET_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06ET_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06F2" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06F2_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06F2" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06F2_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06F2_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06G2" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 676 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D55AFAB40838AEFCAF1AD2F04B32E
+3275E5007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA36CCFCC32C88E03C3275CC3E370C
+52433B2E000CB0ADC4869520EE2BB27E12EBAB31ED4D7BD68D78D71CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917A78BC3D2068F00F7DF32F58F0178D031700E0B02AC50CD'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame one ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06G2_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 675 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06G2" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06G2_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06G2_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06K" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10C13CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06K_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06K" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06K_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVIVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06K_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06M" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EC3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC4869520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C88AAA89050
+0DF33EFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06M_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06M" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06M_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06M_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } ,
+          set {
+            class nuc-prot ,
+            descr {
+              source {
+                genome mitochondrion ,
+                org {
+                  taxname "Nesosydne bridwelli" ,
+                  orgname {
+                    mgcode 5 } } } } ,
+            seq-set {
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06N" } ,
+                descr {
+                  title "Nesosydne bridwelli COI" ,
+                  molinfo {
+                    biomol genomic } ,
+                  user {
+                    type
+                      str "StructuredComment" ,
+                    data {
+                      {
+                        label
+                          str "StructuredCommentPrefix" ,
+                        data
+                          str "##Assembly-Data-START##" } ,
+                      {
+                        label
+                          str "StructuredCommentSuffix" ,
+                        data
+                          str "##Assembly-Data-END##" } ,
+                      {
+                        label
+                          str "Assembly Method" ,
+                        data
+                          str "Clustal W. plugin for Geneious v. 5.5.6" } ,
+                      {
+                        label
+                          str "Coverage" ,
+                        data
+                          str "partial" } ,
+                      {
+                        label
+                          str "Sequencing Technology" ,
+                        data
+                          str "Sanger dideoxy sequencing" } } } } ,
+                inst {
+                  repr raw ,
+                  mol dna ,
+                  length 677 ,
+                  seq-data
+                    ncbi2na '40034002B9EB020CAB45D75AFAB40838AEFCAF1AD2F04B32E
+3275E7007ACB80A2CB00C9EE3C01E341000AACFFF73E00BFFA16CCFCC32C88E03C3275CC3E370C
+52633A2E000CB0ADC48E9520EE2BB27A12EBAB31ED4D7BD68D78571CF89E80F0C03C08AAA89050
+0DF33CFCF6AA0A7336AA450F3CAAC70D2FD401750D08FACC1CC0803CC30393A8EE10813CC8FEB4
+FFC3C0917AF8BC3D2068F00F7DF32F58F0178D031700E0B02AC50CDC0'H } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            cdregion {
+                              frame two ,
+                              code {
+                                id 5 } } ,
+                          partial TRUE ,
+                          product
+                            whole
+                              local
+                                str "Nesosydne.bridwelli06N_1" ,
+                          location
+                            int {
+                              from 0 ,
+                              to 676 ,
+                              strand minus ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06N" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } ,
+              seq {
+                id {
+                  local
+                    str "Nesosydne.bridwelli06N_1" } ,
+                descr {
+                  molinfo {
+                    biomol peptide ,
+                    tech concept-trans ,
+                    completeness no-ends } } ,
+                inst {
+                  repr raw ,
+                  mol aa ,
+                  length 225 ,
+                  seq-data
+                    ncbieaa "DIGTLYFILGIWSGLIGTMSSILIRSELTQPGALIKNDQIYNVLVTSHA
+FIMIFFMVMPILIGGFGNWLVPLMIGAPDMAFPRMNNMSFWLLPPSLILLISSSMVGSGSGTGWTVYPPLSSYTSHSG
+PSVDLTIFSLHIAGISSIMGAINFISTIMNMRSKNFSMEKMPLFCWSVLITAILLLLSLPVLAGAITMLLTDRNLNTS
+FFDPTGGGDPILYQHLFWFF" } ,
+                annot {
+                  {
+                    data
+                      ftable {
+                        {
+                          data
+                            prot {
+                              name {
+                                "Cytochrome Oxidase I" } } ,
+                          partial TRUE ,
+                          location
+                            int {
+                              from 0 ,
+                              to 224 ,
+                              id
+                                local
+                                  str "Nesosydne.bridwelli06N_1" ,
+                              fuzz-from
+                                lim lt ,
+                              fuzz-to
+                                lim gt } } } } } } } } } ,
+        annot {
+          {
+            data
+              align {
+                {
+                  type partial ,
+                  dim 34 ,
+                  segs
+                    denseg {
+                      dim 34 ,
+                      numseg 3 ,
+                      ids {
+                        local
+                          str "Nesosydne.bridwelli06AB" ,
+                        local
+                          str "Nesosydne.bridwelli06AI" ,
+                        local
+                          str "Nesosydne.bridwelli06AJ" ,
+                        local
+                          str "Nesosydne.bridwelli06AK" ,
+                        local
+                          str "Nesosydne.bridwelli06AN" ,
+                        local
+                          str "Nesosydne.bridwelli06BC" ,
+                        local
+                          str "Nesosydne.bridwelli06BE" ,
+                        local
+                          str "Nesosydne.bridwelli06BR" ,
+                        local
+                          str "Nesosydne.bridwelli06BS" ,
+                        local
+                          str "Nesosydne.bridwelli06CD" ,
+                        local
+                          str "Nesosydne.bridwelli06CH" ,
+                        local
+                          str "Nesosydne.bridwelli06CP" ,
+                        local
+                          str "Nesosydne.bridwelli06CR" ,
+                        local
+                          str "Nesosydne.bridwelli06CS" ,
+                        local
+                          str "Nesosydne.bridwelli06CU" ,
+                        local
+                          str "Nesosydne.bridwelli06D" ,
+                        local
+                          str "Nesosydne.bridwelli06DB" ,
+                        local
+                          str "Nesosydne.bridwelli06DC" ,
+                        local
+                          str "Nesosydne.bridwelli06DE" ,
+                        local
+                          str "Nesosydne.bridwelli06DN" ,
+                        local
+                          str "Nesosydne.bridwelli06DO" ,
+                        local
+                          str "Nesosydne.bridwelli06DT" ,
+                        local
+                          str "Nesosydne.bridwelli06DZ" ,
+                        local
+                          str "Nesosydne.bridwelli06EB" ,
+                        local
+                          str "Nesosydne.bridwelli06EC" ,
+                        local
+                          str "Nesosydne.bridwelli06ED" ,
+                        local
+                          str "Nesosydne.bridwelli06EL" ,
+                        local
+                          str "Nesosydne.bridwelli06EP" ,
+                        local
+                          str "Nesosydne.bridwelli06ET" ,
+                        local
+                          str "Nesosydne.bridwelli06F2" ,
+                        local
+                          str "Nesosydne.bridwelli06G2" ,
+                        local
+                          str "Nesosydne.bridwelli06K" ,
+                        local
+                          str "Nesosydne.bridwelli06M" ,
+                        local
+                          str "Nesosydne.bridwelli06N" } ,
+                      starts {
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        0 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        -1 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        673 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        -1 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        676 ,
+                        -1 ,
+                        676 ,
+                        676 ,
+                        676 } ,
+                      lens {
+                        673 ,
+                        3 ,
+                        1 } ,
+                      strands {
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus ,
+                        plus } } } } } } } } }
